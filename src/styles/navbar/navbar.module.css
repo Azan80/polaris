@@ -1,0 +1,49 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: linear-gradient(88.68deg, #01002E 1.13%, #123499 104.18%);
+
+
+  }
+  .logo {
+    flex: 1;
+    margin-left: 5%;
+
+  }
+  .navLinks {
+    display: flex;
+    gap: 40px; 
+    margin-right: 5%;
+    font-weight: 200;
+
+  }
+  
+  .navLink {
+    color: #fff; 
+    text-decoration: none; 
+    font-size: 16px; 
+  }
+  .navLinkContact {
+    width: 86px;
+    height: 29px;
+    border-radius: 10px;
+    background: #006FB9;
+    color: #fff; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none; 
+ 
+  }
+  
+  @media (max-width:600px) {
+    .navLink{
+        margin-left: 5%;
+    }
+ 
+  }
+  
