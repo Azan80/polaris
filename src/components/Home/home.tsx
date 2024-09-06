@@ -14,32 +14,31 @@ function Home() {
           className={styles.backgroundImage}
         />
 
-<div className={styles.containerText}>
-  <span className={styles.textDark}>
-    YOUR WAY <br />
-    To  <span className={styles.textlight}>
-    <span className={styles.rotatingWords}>
+        <div className={styles.containerText}>
+          <span className={styles.textDark}>
+            YOUR WAY <br />
+            To{" "}
+            <span className={styles.textlight}>
+              <span className={styles.rotatingWords}>
+                <span>SUSTAINABLE</span>
+                <span>Greener</span>
+                <span>Carbon-Free</span>
+                <span>Future</span>
+                <span>Decommissioned</span>
+              </span>
+            </span>
+          </span>
+          <br />
+          <span className={styles.textDark}>FUTURE</span>
 
-  <span>SUSTAINABLE</span>
-      <span >INNOVATIVE</span>
-      <span >RESILIENT</span>
+          <p className={styles.TextDescription}>
+            Expert Removal, Recycling, and Restoration
+            <br />
+            Services for End-of-Life Solar Systems.
+          </p>
 
-   
-    </span>
-  </span>
-  </span>
-  <br/>
-  <span className={styles.textDark}>FUTURE</span>
-  
-  <p className={styles.TextDescription}>
-    Expert Removal, Recycling, and Restoration
-    <br />
-    Services for End-of-Life Solar Systems.
-  </p>
-  
-  <button>Learn more</button>
-</div>
-
+          <button>Learn more</button>
+        </div>
 
         <div className={styles.containerImage2}>
           <div className={styles.lineContainer}>
@@ -53,6 +52,7 @@ function Home() {
             height={100}
             className={styles.backgroundImage2}
           />
+
         </div>
       </div>
     </div>

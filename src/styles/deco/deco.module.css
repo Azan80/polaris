@@ -1,0 +1,90 @@
+.container {
+  padding: 20px;
+
+  text-align: center;
+  background-color: white;
+  font-family: "Oswaid", sans-serif;
+}
+
+.title {
+  margin-top: 8vh;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #0a2472;
+  font-weight: 700;
+}
+
+.cardsContainer {
+  margin-top: 8vh;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  border-top: 4px solid #006fb9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 250px;
+  margin: 10px;
+  text-align: left;
+  transition: transform 0.2s;
+}
+.iconContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #006fb9;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.icon {
+  font-size: 2rem;
+  color: #123499;
+}
+.Headings {
+  color: #123499;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h2 {
+  font-size: 1.5rem;
+  color: #006fb9;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 15px;
+  color: #333;
+  font-family: "Raleway", sans-serif;
+}
+@media (max-width: 1119px) {
+  .cardsContainer {
+    justify-content: center;
+  }
+
+  .card {
+    flex: 0 1 calc(50% - 20px);
+    margin: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    flex: 0 1 calc(50% - 20px);
+    margin: 10px;
+  }
+}
+@media (max-width:430px) {
+  .title{
+    font-size: 30px;
+  }
+}

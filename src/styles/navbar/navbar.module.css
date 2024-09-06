@@ -1,31 +1,36 @@
+
+
+
+
+
+
+
+
 .navbar {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
   padding: 10px 20px;
   background: linear-gradient(88.68deg, #01002E 1.13%, #123499 104.18%);
-  overflow-x: hidden;
-  flex-wrap: wrap; 
+  position: relative; 
 }
 
-.logo {
-  flex: 1;
-  margin-left: 5%;
+.logoImage {
+  width: 100%;
+  height: auto;
 }
 
 .navLinks {
   display: flex;
-  gap: 40px; 
-  margin-right: 5%;
-  font-weight: 200;
+  gap: 20px;
+  align-items: center;
 }
 
-.navLink {
-  color: #fff; 
-  text-decoration: none; 
-  font-size: 16px; 
+.navLink, .navLinkContact {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
 }
-
 .navLinkContact {
   width: 86px;
   height: 29px;
@@ -38,50 +43,51 @@
   text-align: center;
   text-decoration: none; 
 }
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
 
-@media (max-width: 768px) {
-  .navLinks {
-    gap: 20px; 
-    margin-right: 2.5%; 
-  }
-
-  .navLink {
-    font-size: 14px; 
-  }
-
-  .navLinkContact {
-    width: 70px; 
-    height: 25px;
-    font-size: 14px; 
-  }
+.bar {
+  background-color: white;
+  height: 3px;
+  width: 25px;
+  margin: 3px 0;
+  transition: 0.3s;
 }
 
 @media (max-width: 600px) {
-  .navbar {
-    padding: 10px;
-    flex-direction: column; 
-    align-items: flex-start; 
-  }
-
-  .logo {
-    margin-left: 0;
-    margin-bottom: 10px; 
-  }
-
   .navLinks {
-    gap: 10px;
-    margin-right: 0;
-    flex-wrap: wrap; 
+    position: absolute;
+    top: 60px; 
+    right: 0px; 
+    background: linear-gradient(88.68deg, #01002E 1.13%, #123499 104.18%);
+    width: 100%;
+    flex-direction: column;
+    gap: 0;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1000; 
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transform: scaleY(0) translateY(-10px);
+    transform-origin: top;
+    transition: max-height 0.6s ease, opacity 0.4s ease, transform 0.6s ease;
   }
+  
+  .navLinks.open {
+    max-height: 500px; 
+    opacity: 1;
+    transform: scaleY(1) translateY(0);
+  }
+  .hamburger {
+    display: flex;
+  }
+} 
 
-  .navLink {
-    font-size: 14px;
-    margin-left: 0;
-  }
 
-  .navLinkContact {
-    width: 70px; 
-    height: 25px;
-    font-size: 12px; 
-  }
-}
+
+

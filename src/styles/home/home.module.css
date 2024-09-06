@@ -22,7 +22,7 @@
 .containerText {
   position: relative;
   top: 100px;
-  left: 80px;
+  left: 10vw;
   font-family: "Oswald", sans-serif;
   font-size: 48px;
   font-weight: 700;
@@ -37,14 +37,12 @@
 }
 
 .rotatingWords {
-    
   display: inline-block;
   position: relative;
   width: 63%;
-  height: 0.8em;
+  height: 0.9em;
   overflow: hidden;
   font-size: 1em;
-
 }
 
 .rotatingWords span {
@@ -126,14 +124,12 @@
   height: 513px;
 }
 .containerImage2 {
-    position: absolute;
-    right: 3%;
-margin-top: -6%;
-    transform: translateY(-50%);
-    display: flex;
-  
-  
-  }
+  position: absolute;
+  right: 3%;
+  margin-top: -6%;
+  transform: translateY(-50%);
+  display: flex;
+}
 .lineContainer {
   display: flex;
   flex-direction: column;
@@ -148,69 +144,99 @@ margin-top: -6%;
   height: 183px;
   border-radius: 20px;
   background: #123499;
-
   margin-bottom: 5px;
 }
-
-@media (max-width:430px) {
-    .containerText{
-        margin-left: -6%;
-    }
-    .containerText span{
-        font-size: 36px;
-    }
-
-    
+@media (max-height:670px) {
+  .backgroundImage2{
+    width: 547px;
+    height: 413px;
+  }
+  .verticalLine {
+    width: 8px;
+    height: 150px;
+    border-radius: 20px;
+    background: #123499;
+    margin-bottom: 5px;
+  }
 }
-@media (max-width: 900px) {
+@media (max-width: 430px) {
+    .containerBackground{
+        width: 100%;
+    }
+  .containerText {
+    margin-left: -6%;
+  }
+  .containerText span {
+    font-size: 36px;
+  }
+  .containerImage2 {
+    margin-top: -100%;
+  }
+}
 
+@media (max-width: 900px) {
   .container {
     display: flex;
     flex-direction: column;
     align-items: center;
     height: auto;
   }
-
-
   .containerImage2 {
     position: relative;
     height: auto;
     width: 80%;
-    margin: 20px;
+    justify-content: center;
     margin-top: 30%;
     right: auto;
     transform: none;
   }
-  .backgroundImage2{
+  .backgroundImage2 {
     width: 400px;
     height: 400px;
   }
-
+.containerText{
+    left: 25%;
+}
   .containerBackground {
     height: auto;
     padding-bottom: 100px;
   }
 }
 @media (max-width: 1200px) {
-    .container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-  
-    }
-.containerImage2{
-    margin-left:10%;
-}
-    .backgroundImage2{
-      width: 400px;
-      height: 400px;
-    }
-    .verticalLine {
-      width: 8px;
-      height: 140px;
-      border-radius: 20px;
-      background: #123499;
-      margin-bottom: 5px;
-    }
- 
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
+  .containerImage2 {
+    margin-left: 10%;
+  }
+  .backgroundImage2 {
+    width: 400px;
+    height: 400px;
+  }
+  .verticalLine {
+    width: 8px;
+    height: 140px;
+    border-radius: 20px;
+    background: #123499;
+    margin-bottom: 5px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    height: auto;
+  }
+  .containerText {
+    font-size: 39px;
+  }
+
+
+  .containerText {
+    margin-bottom: 15px;
+  }
+
+  .containerImage2 {
+    margin-top: 30%;
+  }
+}
