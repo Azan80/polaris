@@ -1,0 +1,364 @@
+.pageContainer {
+    width: 100%;
+    margin: 0;
+    background-color: white;
+    padding: 20px 0;
+  }
+  
+  .headingContainer {
+    position: relative;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  
+  .heading {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 60px;
+    margin-left: 60px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #011860;
+  }
+  
+  .how {
+    color: #123499;
+    font-weight: 600;
+    font-size: 36px;
+  }
+  
+  .we {
+    color: #006FB9;
+    font-weight: 600;
+    font-size: 36px;
+  }
+  
+  .container {
+    width: 100%;
+    height: fit-content;
+    margin-top: 200px;
+    background: linear-gradient(180deg, rgba(46, 167, 224, 0.05) 0%, rgba(6, 17, 51, 0.05) 100%);
+  }
+  
+  .mainContainer {
+    width: 100%;
+    max-width: 1000px;
+    margin: 100px auto 0;
+  }
+  
+  .cardsContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+    padding-top: 15px;
+    box-sizing: border-box;
+  }
+  
+  .cardsContainer .card {
+    border: none; 
+  }
+  
+  .card {
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    height: 150px;
+    transition: all 0.3s ease; /* Ensure smooth transition for all properties */
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .card.collapsed {
+    width: 176px;
+    height: 480px;
+  }
+  
+  .card.expanded {
+    width: calc(100% - 300px);
+    height: 480px;
+  }
+  
+  .cardTitleWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: visible;
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    height: 50%;
+    width: 100%;
+    transform-origin: bottom right;
+  }
+  
+  .titleVertical {
+    transform: rotate(-90deg);
+    white-space: nowrap;
+    position: relative;
+    margin-left: 350px;
+  }
+  
+  .titleHorizontal {
+    transform: rotate(0deg);
+    margin-right: 24%;
+    position: absolute;
+  }
+  
+  .cardTitle {
+    margin: 0;
+    padding: 10px;
+    margin-bottom: 200px;
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    font-family: "Oswald", sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 59.28px;
+  }
+  
+  .cardDescription {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 160px;
+    padding: 10px;
+    font-size: 14px;
+    width: 480px;
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 0.5s ease-in-out, max-height 0.5s ease-in-out, transform 0.5s ease-in-out;
+    transform: translateY(100%);
+  }
+  
+  .descriptionVisible {
+    opacity: 1;
+    max-height: 200px;
+    transform: translateY(0);
+  }
+  
+  .descriptionHidden {
+    opacity: 0;
+    max-height: 0;
+    transform: translateY(100%);
+  }
+  
+  @media screen and (max-width: 600px) {
+    .cardsContainer {
+      flex-direction: column;
+    }
+  
+    .card {
+      width: 100%;
+    }
+  
+    .card.expanded {
+      width: 100%;
+    }
+  }
+
+
+  /* polygon */
+  .polarisContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 120vh;
+    background-color: #dae1e6;
+    padding: 2em;
+    box-sizing: border-box;
+  }
+  
+  .title {
+    margin-top: 1em;
+    color: rgba(18, 52, 153, 1);
+    font-size: 1.5em;
+    font-family: 'Oswaid', sans-serif;
+    font-weight: 500;
+    text-align: center;
+  }
+  
+  .Color {
+    color: rgba(0, 111, 185, 1);
+    font-size: 1.5em;
+    font-weight: 500;
+  }
+  
+  .polarisItems {
+    position: relative;
+    width: 40vw;
+    height: 40vw;
+    max-width: 350px;
+    max-height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  margin-top: 300px;
+  margin-left: 100px;
+  }
+  
+  .polarisLogo {
+    position: absolute;
+    background: #01002E;
+    border-radius: 50%;
+    padding: 1em;
+    width: 20vw;
+    height: 20vw;
+    display: flex;
+    margin-right: 11em;
+    margin-bottom: 11em;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+  }
+  
+  .logoImage {
+    width: 100%;
+    height: auto;
+  }
+  
+  .polarisItem {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15vw;
+    height: 15vw;
+    max-width: 150px;
+    max-height: 150px;
+    background: linear-gradient(207.14deg, #45B4FF 13.56%, #123499 128.95%);
+    clip-path: polygon(50% 0%, 100% 38%, 81% 100%, 19% 100%, 0% 38%);
+    transition: transform 0.3s ease;
+  }
+  
+  .polarisItem:hover {
+    transform: scale(1.1);
+  }
+  
+  .polarisItemContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  
+  .iconWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3em;
+    height: 3em;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 0.5em;
+    box-sizing: border-box;
+  }
+  
+  .dev {
+    font-size: 1.5em;
+  }
+  
+  .polarisLabel {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 0.5em;
+    text-align: center;
+    white-space: nowrap;
+  }
+  .plan{
+    color: #01002E;
+  
+  }
+  @media (max-width: 768px) {
+    .title {
+      font-size: 1.2em;
+    }
+  
+    .Color {
+      font-size: 1.2em;
+    }
+  
+    .polarisLogo {
+      width: 20vw;
+      height: 20vw;
+      max-width: 100px;
+      max-height: 100px;
+    }
+  
+    .polarisItems {
+      width: 50vw;
+      height: 50vw;
+      max-width: 300px;
+      max-height: 300px;
+    }
+  
+    .polarisItem {
+      width: 20vw;
+      height: 20vw;
+      max-width: 120px;
+      max-height: 120px;
+    }
+  
+    .iconWrapper {
+      width: 2.5em;
+      height: 2.5em;
+    }
+  
+    .dev {
+      font-size: 1.2em;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .title {
+      font-size: 1em;
+    }
+  
+    .Color {
+      font-size: 1em;
+    }
+  
+    .polarisLogo {
+      width: 25vw;
+      height: 25vw;
+      max-width: 80px;
+      max-height: 80px;
+    }
+  
+    .polarisItems {
+      width: 60vw;
+      height: 60vw;
+      max-width: 250px;
+      max-height: 250px;
+    }
+  
+    .polarisItem {
+      width: 25vw;
+      height: 25vw;
+      max-width: 100px;
+      max-height: 100px;
+    }
+  
+    .iconWrapper {
+      width: 2em;
+      height: 2em;
+    }
+  
+    .dev {
+      font-size: 1em;
+    }
+  }
+  

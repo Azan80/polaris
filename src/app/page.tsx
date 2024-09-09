@@ -4,6 +4,7 @@ import Home from '@/components/Home/home'
 import Deco from '@/components/deco/deco'
 import Polaris from '@/components/Polaris/polaris'
 import Work from '@/components/Work/work'
+import Polygon from '@/components/polygon/polygon'
 function page() {
   return (
     <div>
@@ -12,6 +13,7 @@ function page() {
 <Deco/>
 <Polaris/>
 <Work/>
+<Polygon/>
     </div>
   )
 }

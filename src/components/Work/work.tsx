@@ -1,39 +1,95 @@
-import React from 'react';
-import Head from 'next/head';
+"use client";
+import { useState } from 'react';
 import styles from '@/styles/work/work.module.css';
 
-function Work() {
+const cardContent = [
+  {
+    title: 'ESG Reporting',
+    description: `At Polaris, we assist clients in navigating the complexities of ESG reporting with tailored solutions that align with their specific needs and objectives. Our team of experts provides comprehensive support, from identifying relevant ESG metrics to collecting and analyzing data, and preparing detailed reports.`,
+    image: '/images/backgroundimage/leave.jpeg',
+    overlayColor: '#25991299' 
+  },
+  {
+    title: 'Sustainability',
+    description: `At Polaris, we assist clients in navigating the complexities of ESG reporting with tailored solutions that align with their specific needs and objectives. Our team of experts provides comprehensive support, from identifying relevant ESG metrics to collecting and analyzing data, and preparing detailed reports.`,
+    image: '/images/backgroundimage/solar.jpeg',
+    overlayColor: '#12349999' 
+  },
+  {
+    title: 'Financial Management',
+    description: `At Polaris, we assist clients in navigating the complexities of ESG reporting with tailored solutions that align with their specific needs and objectives. Our team of experts provides comprehensive support, from identifying relevant ESG metrics to collecting and analyzing data, and preparing detailed reports.`,
+    image: '/images/backgroundimage/coins.jpeg',
+    overlayColor: '#BB700099' 
+  },
+  {
+    title: 'Environmental Impact',
+    description: `At Polaris, we assist clients in navigating the complexities of ESG reporting with tailored solutions that align with their specific needs and objectives. Our team of experts provides comprehensive support, from identifying relevant ESG metrics to collecting and analyzing data, and preparing detailed reports.`,
+    image: '/images/backgroundimage/mills.jpg',
+    overlayColor: '#00585899' 
+  },
+];
+
+const Cards = () => {
+  const [expandedCard, setExpandedCard] = useState(0);
+
+  const handleClick = (cardIndex: number) => {
+    setExpandedCard(cardIndex);
+  };
+
+  const getTitleMarginRight = (index: number) => {
+    const margins = ['210px', '230px', '80px', '80px'];
+    return margins[index] || '10px';
+  };
+
+  const getTitleMarginBottom = (index: number) => {
+    const margins = ['220px', '200px', '370px', '350px'];
+    return margins[index] || '270px';
+  };
+
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>How We Work</title>
-      </Head>
-      <h1 className={styles.title}><span className={styles.let}>Lets find out</span> <span className={styles.How}>How</span> <span className={styles.Work}>We Work</span></h1>
-      <img src="/work/Rectangle 8.png" alt="How We Work" className={styles.image} />
-      <div className={styles.listContainer}>
-        <div className={styles.listColumn}>
-          <div className={styles.listItem}>
-            <h2><span className={styles.Dark}>1.</span><br/> ESG Reporting</h2>
-            <p>At Polaris, we assist clients in navigating the complexities of ESG reporting with tailored solutions that align with their specific needs and objectives.</p>
-          </div>
-          <div className={styles.listItem}>
-            <h2><span className={styles.Dark}>3.</span><br/> Financial Management</h2>
-            <p>At Polaris, we assist clients in navigating the complexities of ESG reporting with tailored solutions that align with their specific needs and objectives.</p>
-          </div>
-        </div>
-        <div className={styles.listColumn}>
-          <div className={styles.listItem}>
-            <h2><span className={styles.Dark}>2.</span><br/> Sustainability</h2>
-            <p>At Polaris, we assist clients in navigating the complexities of ESG reporting with tailored solutions that align with their specific needs and objectives.</p>
-          </div>
-          <div className={styles.listItem}>
-            <h2><span className={styles.Dark}>4.</span><br/> Environmental Impact</h2>
-            <p>At Polaris, we assist clients in navigating the complexities of ESG reporting with tailored solutions that align with their specific needs and objectives.</p>
+    <div className={styles.pageContainer}>
+      <div className={styles.headingContainer}>
+        <h1 className={styles.heading}> <span className={styles.how}>Services</span></h1>
+      </div>
+      <div className={styles.container}>
+        <div className={styles.mainContainer}>
+          <div className={styles.cardsContainer}>
+            {cardContent.map((card, index) => (
+              <div
+                key={index}
+                className={`${styles.card} ${expandedCard === index ? styles.expanded : styles.collapsed}`}
+                onClick={() => handleClick(index)}
+                style={{
+                  backgroundImage: `url(${card.image})`,
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center',
+                }}
+              >
+                <div
+                  className={styles.cardOverlay}
+                  style={{
+                    backgroundColor: card.overlayColor,
+                  }}
+                />
+                <div
+                  className={`${styles.cardTitleWrapper} ${expandedCard === index ? styles.titleHorizontal : styles.titleVertical}`}
+                  style={{
+                    marginRight: expandedCard === index ? getTitleMarginRight(index) : '0',
+                    marginBottom: expandedCard === index ? '0' : getTitleMarginBottom(index),
+                  }}
+                >
+                  <h3 className={styles.cardTitle}>{card.title}</h3>
+                </div>
+                <p className={`${styles.cardDescription} ${expandedCard === index ? styles.descriptionVisible : styles.descriptionHidden}`}>
+                  {card.description}
+                </p>
+              </div>
+            ))}
           </div>
         </div>
       </div>
     </div>
   );
-}
+};
 
-export default Work;
+export default Cards;

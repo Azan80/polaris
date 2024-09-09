@@ -4,13 +4,24 @@ import { TbWorld } from 'react-icons/tb';
 import { FiDollarSign } from 'react-icons/fi';
 import { IoMdCheckboxOutline } from 'react-icons/io';
 import styles from '@/styles/deco/deco.module.css';
-
+  import Image from 'next/image';
 function Deco() {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>
         WHY <span style={{ color: '#006fb9' }}>DECOMMISSIONING?</span>
       </h1>
+      <div className={styles.Mills}>
+        <Image
+        
+        src="/images/webimage/mills.png"
+        alt="why-decommissioning"
+        width={670}
+        height={413}
+        
+        
+        />
+      </div>
       <div className={styles.cardsContainer}>
         <div className={styles.card}>
           <div className={styles.iconContainer}>
@@ -22,8 +33,14 @@ function Deco() {
           </p>
         </div>
         <div className={styles.card}>
-          <div className={styles.iconContainer}>
-            <TbWorld className={styles.icon} />
+          <div style={{
+  backgroundColor: "#D7DA2C1A",
+  border:"1px solid #D7DA2C4D",
+
+}}
+ className={styles.iconContainer}>
+<TbWorld className={styles.icon} style={{ color: "#D7DA2C" }} />
+
           </div>
           <h2><span className={styles.Headings}>Land</span> Reclamation</h2>
           <p>
@@ -31,8 +48,15 @@ function Deco() {
           </p>
         </div>
         <div className={styles.card}>
-          <div className={styles.iconContainer}>
-            <FiDollarSign className={styles.icon} />
+          <div 
+          style={{
+            backgroundColor: "#47DED51A",
+            border:"1px solid #47DED54D",
+          
+          }}
+          
+          className={styles.iconContainer}>
+            <FiDollarSign className={styles.icon} style={{ color: "#47DED5" }} />
           </div>
           <h2><span className={styles.Headings}>Economic</span> Benefits</h2>
           <p>
@@ -40,8 +64,16 @@ function Deco() {
           </p>
         </div>
         <div className={styles.card}>
-          <div className={styles.iconContainer}>
-            <IoMdCheckboxOutline className={styles.icon} />
+          <div
+          style={{
+            backgroundColor: "#EDB0561A",
+            border:" 1px solid #EDB0564D",
+          
+          }}
+          
+          
+          className={styles.iconContainer}>
+            <IoMdCheckboxOutline className={styles.icon} style={{ color: "#EDB056" }}/>
           </div>
           <h2> <span className={styles.Headings}>Compliance with</span> Regulations</h2>
           <p>

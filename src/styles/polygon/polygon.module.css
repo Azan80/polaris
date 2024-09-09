@@ -1,0 +1,147 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.headingContainer {
+  width: 100%;
+  background: #ffffff;
+  padding: 20px;
+}
+.perm ,.fin{
+white-space: nowrap;
+}
+
+.heading {
+  color: #004080;
+  font-size: 2.5rem;
+  width: 200px;
+  white-space: nowrap;
+  margin: 0;
+  border-bottom: 1px solid #004080;
+  padding-bottom: 10px;
+}
+
+.backgroundContainer {
+  position: relative;
+  width: 100%;
+  height: 500px;
+}
+
+.backgroundImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #01186099;
+  z-index: 2;
+}
+
+.keyPhasesContainer {
+  position: relative;
+  padding: 50px 20px;
+  display: flex;
+  justify-content: center;
+  z-index: 3;
+}
+
+.iconStructure {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap:100px; 
+  width: 100%;
+  max-width: 800px;
+  position: relative;
+}
+
+.iconItem {
+  text-align: center;
+  color: #ffffff;
+  position: relative;
+
+
+}
+
+.iconItem::before,
+.iconItem::after {
+  display: flex;
+  content: '';
+  position: relative;
+  background: #ffffff;
+margin-inline: 68%;
+  z-index: 1;
+}
+
+.iconItem:nth-child(1)::before,
+.iconItem:nth-child(2)::before,
+.iconItem:nth-child(3)::before {
+  height: 1px;
+  top: 50%;
+  left: 0;
+  width: calc(100% + 20px);
+}
+
+.iconItem:nth-child(4)::before,
+.iconItem:nth-child(5)::before,
+.iconItem:nth-child(6)::before {
+  height: 1px;
+  top: 50%;
+  left: 0;
+  width: calc(100% + 20px); 
+}
+
+.iconItem:nth-child(3)::before {
+  display: none;
+}
+
+.iconItem:nth-child(6)::before {
+  display: none;
+}
+
+.doubleCircle {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px; 
+  height: 60px;
+}
+
+.doubleCircle::before,
+.doubleCircle::after {
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+}
+
+.doubleCircle::before {
+  border-width: 2px;
+  width: 100%;
+  height: 100%;
+}
+
+.doubleCircle::after {
+  border-width: 1px;
+  top: 12px; 
+  left: 12px; 
+  width: calc(100% - 24px); 
+  height: calc(100% - 24px); 
+}
+
+.icon {
+  font-size: 1.5rem; 
+  z-index: 2;
+}

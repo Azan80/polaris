@@ -7,11 +7,19 @@
 }
 
 .title {
-  margin-top: 8vh;
+  margin-top: 40vh;
   font-size: 2.5rem;
   margin-bottom: 20px;
+  margin-right: 50%;
   color: #0a2472;
   font-weight: 700;
+}
+.Mills{
+  position: relative;
+  display: flex;
+  margin-left: 50%;
+  margin-top: -20%;
+
 }
 
 .cardsContainer {
@@ -38,14 +46,15 @@
   align-items: center;
   width: 60px;
   height: 60px;
-  border: 1px solid #006fb9;
   border-radius: 50%;
   margin-bottom: 10px;
+  background-color: #2599121A;
+  border: 1px solid #2599124D
 }
 
 .icon {
   font-size: 2rem;
-  color: #123499;
+  color: #259912;
 }
 .Headings {
   color: #123499;
@@ -86,5 +95,30 @@
 @media (max-width:430px) {
   .title{
     font-size: 30px;
+  }
+}
+@media (max-width: 768px) {
+  .container{
+    margin-top: -40%;
+  }
+  .Mills {
+    margin-top: 10px;
+    margin-left: 0;
+  }
+
+  .title {
+    font-size: 1.8rem;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 430px) {
+  .title {
+    font-size: 1.5rem;
+    margin-top: 10vh;
+  }
+
+  .Mills {
+    margin-top: 5px;
   }
 }

@@ -1,77 +1,79 @@
 import React from 'react';
-import Head from 'next/head';
 import Image from 'next/image';
 import styles from '@/styles/polaris/polaris.module.css';
 
 function Polaris() {
   return (
     <div className={styles.container}>
-      <Head>
-        <title>Polaris EcoSystems</title>
-        <meta name="description" content="Welcome to Polaris EcoSystems" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <h1 className={styles.title}>
+        <span className={styles.Dark}>WELCOME TO </span>
+        POLARIS<br />
+        ECOSYSTEMS!
+        <span className={styles.iconCon}>
+          <Image
+            src="/icons/Frame (1).png"
+            alt="Logo"
+            width={10}
+            height={10}
+            className={styles.icon}
+          />
+        </span>
+      </h1>
 
-      <main className={styles.main}>
-        <section className={styles.section}>
-          <div className={styles.imageContainer}>
-          <div className={styles.lineContainer}>
-            <div className={styles.verticalLine}></div>
-          </div>
+      <div className={styles.cardsContainer}>
+        <div className={styles.cardSmall1}>
+          <div className={styles.imageTop}>
             <Image
               src="/images/webimage/pic 2.png"
-              alt="Solar Panels"
+              alt="Top Image"
+
               width={100}
               height={100}
-              className={styles.image1}
+              className={styles.top}
             />
+          </div>
+          <div className={styles.imageBottom}>
             <Image
               src="/images/webimage/pic 1.png"
-              alt="Installation"
+              alt="Bottom Image"
+
               width={100}
               height={100}
-              className={styles.image2}
+              className={styles.bottom}
             />
-          
-             <Image
-            src="/images/webimage/Clip path group (1).png"
-            alt="Logo"
-            width={100}
-            height={100}
-            className={styles.image3}
-          />
           </div>
-
-          <div className={styles.textContainer}>
-           <h1 className={styles.title}>
-  <span className={styles.Dark}>WELCOME TO </span>
-  POLARIS<br />
-  ECOSYSTEMS!
-  <span className={styles.iconCon}>
-    <Image
-      src="/icons/Frame (1).png"
-      alt="Logo"
-      width={10}
-      height={10}
-      className={styles.icon}
-    />
-  </span>
-</h1>
-
-            <p className={styles.description}>
-              At Polaris EcoSystems, we deliver a sophisticated array of integrated solutions tailored to the evolving needs of the solar industry.
-            
-            </p>
-            <p className={styles.description}>
-              Our commitment to excellence and sustainability drives us to provide comprehensive services that span from operational strategy to project execution, ensuring solar investments achieve their fullest potential.
-            </p>
-            <p className={styles.description}>
-              By combining deep industry knowledge with innovative practices, we help our clients navigate the complexities of the renewable energy landscape with confidence and precision.
-            </p>
-            <button className={styles.learnMoreButton}>Learn more</button>
+        </div>
+        <div className={styles.cardLarge}>
+          <div>
+                 <h1>About Us</h1>
+          <p className={styles.description}>
+            At Polaris EcoSystems, we deliver a sophisticated array of integrated solutions tailored to the evolving needs of the solar industry.
+          </p>
+          <p className={styles.description}>
+            Our commitment to excellence and sustainability drives us to provide comprehensive services that span from operational strategy to project execution, ensuring solar investments achieve their fullest potential.
+          </p>
+          <p className={styles.description}>
+            By combining deep industry knowledge with innovative practices, we help our clients navigate the complexities of the renewable energy landscape with confidence and precision.
+          </p>
+          <button className={styles.learnMoreButton}>Find out more</button>
           </div>
-        </section>
-      </main>
+     
+        </div>
+        <div className={styles.cardSmall2}>
+          <h2 className={styles.cardTitle}>WHY CHOOSE US</h2>
+          <ul className={styles.bulletList}>
+            <li className={styles.bulletItem}>
+            <span>.</span>  <strong>Experience</strong><br/> Our commitment to excellence and sustainability drives us to provide comprehensive services that span.
+            </li>
+            <li className={styles.bulletItem}>
+            <span>.</span>  <strong>Support</strong><br/>  Our commitment to excellence and sustainability drives us to provide comprehensive services that span.
+            </li>
+            <li className={styles.bulletItem}>
+            <span>.</span>  <strong>Industry Certified</strong><br/> Our commitment to excellence and sustainability drives us to provide comprehensive services that span.
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
   );
 }
