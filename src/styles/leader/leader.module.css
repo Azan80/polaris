@@ -1,0 +1,128 @@
+.leadershipSection {
+    position: relative;
+    padding: 50px 20px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .backgroundImage {
+    position: absolute;
+    background-color: white;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; 
+  }
+  
+  .heading {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #006FB9;
+    position: relative;
+    z-index: 1;
+}
+
+.heading::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 10%;
+    height: 2px;
+    background-color: #123499;
+}
+
+  .Our{
+    color: #123499;
+
+  }
+  
+  .cardContainer {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 250px;
+    position: relative; 
+  }
+  
+  .card {
+    border-radius: 15px;
+    width: 396px;
+    height: 395px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    background: linear-gradient(173.19deg, rgba(69, 180, 255, 0.2) -39.79%, rgba(255, 255, 255, 0.2) 102.07%);
+    padding: 60px 20px 20px;
+    border: 1px solid transparent;
+    border-image: linear-gradient(169.24deg, #45B4FF 7.99%, #FFFFFF 112.99%);
+    border-image-slice: 1;
+
+}
+
+  
+  .imageContainer {
+    position: absolute;
+    left: 50%;
+    margin-top: -250px;
+    transform: translateX(-50%);
+    width: 303px;
+    height: 315px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid #123499;
+    z-index: 2;
+  }
+  
+  .image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 70px 0 10px; 
+color: #006FB9;
+
+  }
+  .wes{
+color: #011860;
+
+  }
+  .title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 10px 0;
+    color: #555;
+  }
+  
+  .description {
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 20px;
+  }
+  
+  .readMore {
+    width: 126.05px;
+    height: 40.63px;
+    top: 538px;
+    left: 138px;
+    gap: 0px;
+    border-radius: 100px;
+
+    opacity: 0px;
+color: #011860;
+border: 1px solid #123499
+
+    
+  }
+  
+  .readMore:hover {
+    background-color: #ffffff;
+  }
+  
