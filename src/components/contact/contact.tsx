@@ -7,6 +7,7 @@ const ContactUs = () => {
         <div className={styles.container}>
             <div className={styles.background}>
                 <Image
+                    src="/images/backgroundimage/4k.jpg"
                     alt="Background"
                     layout="fill"
                     objectFit="cover"
