@@ -25,7 +25,7 @@ const ContactUs = () => {
                         <input type="email" placeholder="Email" required />
                         <input type="tel" placeholder="Phone" required />
                     </div>
-                    <textarea placeholder="Message" required></textarea>
+                    <textarea placeholder="Message..." required></textarea>
                     <button type="submit">Contact Us</button>
                 </form>
             </div>

@@ -91,11 +91,14 @@
     width: 128px;
     height: 37px;
     margin-top: 1rem;
- border-radius: 15px;
+    border-radius: 15px;
     background: linear-gradient(90.05deg, #0A2472 0.05%, #006FB9 122.59%);
     
 }
 
 .container button:hover {
     background-color: #005bb5;
+}
+@media (max-width:768px) {
+    
 }

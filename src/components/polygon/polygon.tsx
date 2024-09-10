@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import { FaClipboardList, FaRegCheckCircle, FaTools, FaRecycle, FaFileInvoiceDollar, FaHome } from 'react-icons/fa';
+import { RiReservedFill,RiCheckboxCircleFill ,RiPlug2Fill,RiRecycleFill, RiCurrencyFill,RiSeedlingFill} from "react-icons/ri";
 import styles from '@/styles/polygon/polygon.module.css';
 
 const KeyPhases = () => {
@@ -25,36 +25,36 @@ const KeyPhases = () => {
             <div className={styles.iconItem}>
               <div className={styles.perm}><p>Assessment And Planning</p></div>
               <div className={styles.doubleCircle}>
-                <FaClipboardList className={styles.icon} />
+                <RiReservedFill className={styles.icon} />
               </div>
             </div>
             <div className={styles.iconItem}>
               <div className={styles.perm}><p>Permitting and compliance</p></div>
               <div className={styles.doubleCircle}>
-                <FaRegCheckCircle className={styles.icon} />
+                <RiCheckboxCircleFill className={styles.icon} />
               </div>
             </div>
             <div className={styles.iconItem}>
               <div className={styles.perm}><p>Dismantling</p></div>
               <div className={styles.doubleCircle}>
-                <FaTools className={styles.icon} />
+                <RiPlug2Fill className={styles.icon} />
               </div>
             </div>
             <div className={styles.iconItem}>
               <div className={styles.doubleCircle}>
-                <FaRecycle className={styles.icon} />
+                <RiRecycleFill className={styles.icon} />
               </div>
               <div className={styles.fin}><p>Recycling and Disposal</p></div>
             </div>
             <div className={styles.iconItem}>
               <div className={styles.doubleCircle}>
-                <FaFileInvoiceDollar className={styles.icon} />
+                <RiCurrencyFill className={styles.icon} />
               </div>
               <div className={styles.fin}><p>Finance and Documentation</p></div>
             </div>
             <div className={styles.iconItem}>
               <div className={styles.doubleCircle}>
-                <FaHome className={styles.icon} />
+                <RiSeedlingFill className={styles.icon} />
               </div>
               <div className={styles.fin}><p>Site Restoration</p></div>
             </div>

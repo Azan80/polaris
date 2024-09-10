@@ -200,7 +200,7 @@ margin-top: 140px;
     height: 100%;
   }
   .iconStructure {
-    gap: 60px; /* Adjust the gap for medium screens */
+    gap: 60px; 
   }
 
   .iconItem:nth-child(1)::before,
@@ -218,11 +218,14 @@ margin-top: 140px;
 
 @media (max-width: 600px) {
   .iconStructure {
-    grid-template-columns: 1fr; /* Stack items vertically on small screens */
+    grid-template-columns: 1fr; 
     gap: 30px;
   }
 
   .iconItem::before {
-    display: none; /* Hide lines between icons on very small screens */
+    display: none; 
+  }
+  .verticalLine{
+    display: none;
   }
 }

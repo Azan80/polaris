@@ -7,6 +7,7 @@ import Work from '@/components/Work/work'
 import Polygon from '@/components/polygon/polygon'
 import Leadership from '@/components/leader/leader'
 import ContactUs from '@/components/contact/contact'
+import Footer from '@/components/footer/footer'
 function page() {
   return (
     <div>
@@ -18,6 +19,8 @@ function page() {
 <Polygon/>
 <Leadership/>
 <ContactUs/>
+<Footer/>
+
     </div>
   )
 }
