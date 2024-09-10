@@ -4,7 +4,7 @@ import { TbWorld } from 'react-icons/tb';
 import { FiDollarSign } from 'react-icons/fi';
 import { IoMdCheckboxOutline } from 'react-icons/io';
 import styles from '@/styles/deco/deco.module.css';
-  import Image from 'next/image';
+import Image from 'next/image';
 function Deco() {
   return (
     <div className={styles.container}>

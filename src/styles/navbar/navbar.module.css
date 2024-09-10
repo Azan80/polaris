@@ -7,10 +7,13 @@
   background: linear-gradient(88.68deg, #01002E 1.13%, #123499 104.18%);
   position: relative; 
 }
-
+.logo{
+  margin-left: 110px;
+}
 .logoImage {
   width: 100%;
   height: auto;
+
 }
 
 .navLinks {
