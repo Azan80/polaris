@@ -19,7 +19,6 @@ function Deco() {
         width={670}
         height={413}
         
-        
         />
       </div>
       <div className={styles.cardsContainer}>

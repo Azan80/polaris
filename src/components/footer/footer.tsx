@@ -1,7 +1,8 @@
 // components/Footer.js
 import React from 'react';
 import Image from 'next/image';
-import { FaEnvelope, FaPhoneAlt, FaMapMarkerAlt, FaLinkedin, FaTwitter} from 'react-icons/fa';
+import {  FaPhoneAlt, FaLinkedin, FaTwitter} from 'react-icons/fa';
+import { BiSolidEnvelope } from "react-icons/bi";
 import { TbBrandFacebookFilled } from "react-icons/tb";
 import { HiMiniBuildingOffice2 } from "react-icons/hi2";
 import styles from '@/styles/footer/footer.module.css';
@@ -14,8 +15,8 @@ const Footer = () => {
             </div>
             <div className={styles.footerContact}>
                 <h2>Contact Us</h2>
-                <p><HiMiniBuildingOffice2 size={30} /> 1234 Energy Drive, Suite 500, Houston, TX 77002</p>
-                <p><FaEnvelope /> Polariseco@gmail.com</p>
+                <p><HiMiniBuildingOffice2 size={30} /> 1234 Energy Drive, Suite<br/> 500, Houston, TX 77002</p>
+                <p><BiSolidEnvelope size={23} /> Polariseco@gmail.com</p>
                 <p><FaPhoneAlt /> (555) 123-4567</p>
                 <div className={styles.socialIcons}>
                     <a href="#"><FaLinkedin /></a>
