@@ -48,10 +48,10 @@ function Home() {
             <div className={styles.verticalLine}></div>
           </div>
           <Image
-            src="/images/backgroundimage/tri.png"
+            src="/images/backgroundimage/real.png"
             alt="Logo"
-            width={100}
-            height={100}
+            width={500}
+            height={500}
             className={styles.backgroundImage2}
           />
 

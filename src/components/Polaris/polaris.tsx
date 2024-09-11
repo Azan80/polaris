@@ -24,11 +24,11 @@ function Polaris() {
         <div className={styles.cardSmall1}>
           <div className={styles.imageTop}>
             <Image
-              src="/images/webimage/pic 2.png"
+              src="/images/webimage/point.jpeg"
               alt="Top Image"
 
-              width={100}
-              height={100}
+              width={500}
+              height={500}
               className={styles.top}
             />
           </div>

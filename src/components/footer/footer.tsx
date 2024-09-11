@@ -21,8 +21,8 @@ const Footer = () => {
                 <p><FaPhoneAlt /> (555) 123-4567</p>
                 <div className={styles.socialIcons}>
                     <a href="#"><FaLinkedin /></a>
-                    <a href="#"><TbBrandFacebookFilled /></a>
-                    <a href="#"><FaXTwitter /></a>
+                    <a href="#">< FaXTwitter /></a>
+                    <a href="#"><TbBrandFacebookFilled/></a>
                 </div>
             </div>
             <div className={styles.footerQuickLinks}>

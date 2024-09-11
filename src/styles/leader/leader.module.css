@@ -31,10 +31,10 @@
     content: '';
     position: absolute;
     bottom: -10px;
-    left: 50%;
+    left: 49%;
     transform: translateX(-50%);
     width: 20%;
-    height: 2px;
+    height: 1px;
     background-color: #123499;
 }
 
