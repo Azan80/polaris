@@ -19,12 +19,13 @@
 
 .title::after {
   content: '';
-  display: block;
-  width: 55%;
-  border: 1px solid #123499; 
-  position: relative;
-  bottom: -10px;
-  margin-left: 16%;
+    position: absolute;
+    bottom: -10px;
+    left: 45%;
+    transform: translateX(-50%);
+    width: 57%;
+    height: 1px;
+    background-color: #123499;
 }
 
 
