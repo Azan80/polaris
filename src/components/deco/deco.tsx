@@ -35,7 +35,6 @@ function Deco() {
           <div style={{
   backgroundColor: "#D7DA2C1A",
   border:"1px solid #D7DA2C4D",
-
 }}
  className={styles.iconContainer}>
 <TbWorld className={styles.icon} style={{ color: "#D7DA2C" }} />

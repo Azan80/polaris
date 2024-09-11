@@ -16,15 +16,16 @@ function Home() {
 
         <div className={styles.containerText}>
           <span className={styles.textDark}>
-            YOUR WAY <br />
-            To{" "}
+            YOUR WAY TO<br />
+            A {" "}
             <span className={styles.textlight}>
               <span className={styles.rotatingWords}>
                 <span>SUSTAINABLE</span>
-                <span>Greener</span>
-                <span>Carbon-Free</span>
-                <span>Future</span>
-                <span>Decommissioned</span>
+                <span>GREENER</span>
+                <span>CARBON-FREE</span>
+                <span>FUTURE</span>
+                <span>DECOMMISSIONED</span>
+
               </span>
             </span>
           </span>

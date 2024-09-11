@@ -16,13 +16,13 @@ const Leadership = () => {
         />
       </div>
 
-      <h2 className={styles.heading}><span className={styles.Our}>Our</span> Leadership</h2>
+      <h2 className={styles.heading}><span className={styles.Our}>OUR</span> LEADERSHIP</h2>
       <div className={styles.cardContainer}>
 
         <div className={styles.card}>
           <div className={styles.imageContainer}>
             <Image 
-              src="/images/webimage/Ellipse 8.png" 
+              src="/images/backgroundimage/image (6).png" 
               alt="Wesley Ladd" 
               width={120} 
               height={120} 

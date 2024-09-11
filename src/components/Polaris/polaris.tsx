@@ -63,13 +63,13 @@ function Polaris() {
           <h2 className={styles.cardTitle}>WHY CHOOSE US</h2>
           <ul className={styles.bulletList}>
             <li className={styles.bulletItem}>
-            <span>.</span>  <strong>Experience</strong><br/> Our commitment to excellence and sustainability drives us to provide comprehensive services that span.
+            <span>.</span>  <strong>Experience</strong><br/> <p>Our commitment to excellence and sustainability drives us to provide comprehensive services that span.</p>
             </li>
             <li className={styles.bulletItem}>
-            <span>.</span>  <strong>Support</strong><br/>  Our commitment to excellence and sustainability drives us to provide comprehensive services that span.
+            <span>.</span>  <strong>Support</strong><br/> <p>Our commitment to excellence and sustainability drives us to provide comprehensive services that span.</p>
             </li>
             <li className={styles.bulletItem}>
-            <span>.</span>  <strong>Industry Certified</strong><br/> Our commitment to excellence and sustainability drives us to provide comprehensive services that span.
+            <span>.</span>  <strong>Industry Certified</strong><br/><p>Our commitment to excellence and sustainability drives us to provide comprehensive services that span.</p> 
             </li>
           </ul>
         </div>
