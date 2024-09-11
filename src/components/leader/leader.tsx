@@ -41,10 +41,10 @@ const Leadership = () => {
         <div className={styles.card}>
           <div className={styles.imageContainer}>
             <Image 
-              src="/images/webimage/Ellipse 7 (2).png" 
+              src="/images/webimage/mg.png" 
               alt="Saxon Metzger" 
-              width={120} 
-              height={120} 
+              width={500} 
+              height={500} 
               className={styles.image} 
             />
           </div>
