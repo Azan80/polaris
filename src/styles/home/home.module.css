@@ -40,7 +40,8 @@
   display: inline-block;
   position: relative;
   width: 63%;
-  height: 0.9em;
+  height: 1em;
+  margin-bottom: -4px;
   overflow: hidden;
   font-size: 1em;
 }
