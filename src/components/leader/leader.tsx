@@ -24,8 +24,8 @@ const Leadership = () => {
             <Image 
               src="/images/backgroundimage/image (6).png" 
               alt="Wesley Ladd" 
-              width={120} 
-              height={120} 
+              width={500}
+   height={500}
               className={styles.image} 
             />
           </div>

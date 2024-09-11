@@ -33,14 +33,14 @@ function Polaris() {
             />
           </div>
           <div className={styles.imageBottom}>
-            <Image
-              src="/images/webimage/pic 1.png"
-              alt="Bottom Image"
+          <Image
+   src="/images/backgroundimage/image (6).png"
+   alt="Bottom Image"
+   width={500}
+   height={500}
+   className={styles.bottom}
+/>
 
-              width={100}
-              height={100}
-              className={styles.bottom}
-            />
           </div>
         </div>
         <div className={styles.cardLarge}>
