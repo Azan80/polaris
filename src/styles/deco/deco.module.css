@@ -42,7 +42,10 @@
   justify-content: space-around;
   flex-wrap: wrap;
 }
-
+.cardsContainer h2{
+  white-space: nowrap;
+  font-size: 16px;
+}
 .card {
   background-color: #ffffff;
   border-radius: 10px;
@@ -79,9 +82,10 @@
 }
 
 .card h2 {
-  font-size: 1.5rem;
+  font-size: 16px;
   color: #006fb9;
   margin-bottom: 10px;
+  font-weight: 600;
 }
 
 .card p {
