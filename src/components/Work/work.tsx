@@ -12,13 +12,13 @@ const cardContent = [
   {
     title: 'Sustainability',
     description: `At Polaris, we assist clients in navigating the complexities of ESG reporting with tailored solutions that align with their specific needs and objectives. Our team of experts provides comprehensive support, from identifying relevant ESG metrics to collecting and analyzing data, and preparing detailed reports.`,
-    image: '/images/backgroundimage/solar.jpeg',
+    image: '/images/backgroundimage/cap.jpg',
     overlayColor: '#12349999' 
   },
   {
     title: 'Financial Management',
     description: `At Polaris, we assist clients in navigating the complexities of ESG reporting with tailored solutions that align with their specific needs and objectives. Our team of experts provides comprehensive support, from identifying relevant ESG metrics to collecting and analyzing data, and preparing detailed reports.`,
-    image: '/images/backgroundimage/coins.jpeg',
+    image: '/images/backgroundimage/coins.jpg',
     overlayColor: '#BB700099' 
   },
   {
@@ -37,12 +37,12 @@ const Cards = () => {
   };
 
   const getTitleMarginRight = (index: number) => {
-    const margins = ['210px', '230px', '80px', '80px'];
+    const margins = ['130px', '140px', '0px', '10px'];
     return margins[index] || '10px';
   };
 
   const getTitleMarginBottom = (index: number) => {
-    const margins = ['220px', '200px', '370px', '350px'];
+    const margins = ['220px', '200px', '350px', '350px'];
     return margins[index] || '270px';
   };
 

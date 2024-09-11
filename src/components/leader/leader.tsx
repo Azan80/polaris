@@ -8,7 +8,7 @@ const Leadership = () => {
 
       <div>
       <Image
-          src="/images/backgroundimage/Group 2.png"
+          src="/images/backgroundimage/Group 2.svg"
           alt="Logo"
           width={100}
           height={100}
@@ -22,7 +22,7 @@ const Leadership = () => {
         <div className={styles.card}>
           <div className={styles.imageContainer}>
             <Image 
-              src="/images/webimage/Ellipse 8.png" 
+              src="/images/backgroundimage/image (6).png" 
               alt="Wesley Ladd" 
               width={120} 
               height={120} 

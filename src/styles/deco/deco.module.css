@@ -13,16 +13,21 @@
   margin-right: 50%;
   color: #0a2472;
   font-weight: 700;
+  position: relative;
+  
 }
+
 .title::after {
   content: '';
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 20%;
-  height: 1px;
-  background-color: #123499
+  display: block;
+  width: 55%;
+  border: 1px solid #123499; 
+  position: relative;
+  bottom: -10px;
+  margin-left: 16%;
 }
+
+
 .Mills{
   position: relative;
   display: flex;
@@ -82,7 +87,14 @@
 .card p {
   font-size: 15px;
   color: #333;
+  font-weight: 300;
   font-family: "Raleway", sans-serif;
+}
+@media (max-width:1280px) {
+  .cardsContainer{
+    padding-right:5%;
+    padding-left: 5%;
+  }
 }
 @media (max-width: 1119px) {
   .cardsContainer {
