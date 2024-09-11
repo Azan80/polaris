@@ -19,17 +19,16 @@
 }
 
 .footerContact, .footerQuickLinks {
-    flex: 1;
     margin-top: 50px;
 }
-
-.footerContact {
-    margin-right: -20%;
+.footerContact{
+    margin-right: 5%;
+}
+.footerQuickLinks{
+    display: block;
+    margin-right: 20%;
 }
 
-.footerQuickLinks {
-    margin-right: -23%;
-}
 
 .footerContact h2, .footerQuickLinks h2 {
     margin-bottom: 10px;

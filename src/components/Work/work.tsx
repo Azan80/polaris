@@ -12,13 +12,13 @@ const cardContent = [
   {
     title: 'Sustainability',
     description: `At Polaris, we assist clients in navigating the complexities of ESG reporting with tailored solutions that align with their specific needs and objectives. Our team of experts provides comprehensive support, from identifying relevant ESG metrics to collecting and analyzing data, and preparing detailed reports.`,
-    image: '/images/backgroundimage/solar.jpeg',
+    image: '/images/backgroundimage/cap.jpg',
     overlayColor: '#12349999' 
   },
   {
     title: 'Financial Management',
     description: `At Polaris, we assist clients in navigating the complexities of ESG reporting with tailored solutions that align with their specific needs and objectives. Our team of experts provides comprehensive support, from identifying relevant ESG metrics to collecting and analyzing data, and preparing detailed reports.`,
-    image: '/images/backgroundimage/coins.jpeg',
+    image: '/images/backgroundimage/coins.jpg',
     overlayColor: '#BB700099' 
   },
   {

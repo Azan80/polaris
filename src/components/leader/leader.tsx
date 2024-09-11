@@ -8,7 +8,7 @@ const Leadership = () => {
 
       <div>
       <Image
-          src="/images/backgroundimage/Group 2.png"
+          src="/images/backgroundimage/Group 2.svg"
           alt="Logo"
           width={100}
           height={100}

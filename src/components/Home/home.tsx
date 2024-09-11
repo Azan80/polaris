@@ -7,7 +7,7 @@ function Home() {
     <div className={styles.container}>
       <div className={styles.containerBackground}>
         <Image
-          src="/images/backgroundimage/Group 2.png"
+          src="/images/backgroundimage/Group 2.svg"
           alt="Logo"
           width={100}
           height={100}
@@ -48,7 +48,7 @@ function Home() {
             <div className={styles.verticalLine}></div>
           </div>
           <Image
-            src="/images/backgroundimage/Group (1).png"
+            src="/images/backgroundimage/tri.png"
             alt="Logo"
             width={100}
             height={100}

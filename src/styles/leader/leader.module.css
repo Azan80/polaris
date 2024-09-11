@@ -4,17 +4,19 @@
     padding: 50px 20px;
     text-align: center;
     overflow: hidden;
+    padding-bottom: 15%;
+    background-color: #f7f7f7;
 }
 
 .backgroundImage {
     position: absolute;
-    background-color: white;
-    top: 0;
+    top: 200px; 
     left: 0;
     width: 100%;
-    height: 100%;
-    z-index: -1;
+    height: auto; 
+    z-index: 1;
 }
+
 
 .heading {
     font-size: 40px;
@@ -61,6 +63,7 @@
     border: 1px solid transparent;
     border-image: linear-gradient(169.24deg, #45B4FF 7.99%, #FFFFFF 112.99%);
     border-image-slice: 1;
+    backdrop-filter: blur(5px);
 }
 
 .imageContainer {
