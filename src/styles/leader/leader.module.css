@@ -44,7 +44,7 @@
     display: flex;
     flex-wrap: wrap; 
     justify-content: center;
-    gap: 30px;
+    gap: 90px;
     margin-top: 250px;
     position: relative;
 }
@@ -112,6 +112,7 @@
     font-size: 15px;
     margin-bottom: 20px;
     color: #000000;
+    font-weight: 300;
 }
 
 .readMore {
@@ -128,7 +129,7 @@
     background-color: #ffffff;
 }
 
-/* Media Queries */
+
 @media (max-width: 1000px) {
     .heading {
         font-size: 32px; 

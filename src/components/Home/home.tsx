@@ -16,21 +16,22 @@ function Home() {
 
         <div className={styles.containerText}>
           <span className={styles.textDark}>
-            YOUR WAY TO<br />
-            A {" "}
+            Your Way To<br />
+            a {" "}
             <span className={styles.textlight}>
               <span className={styles.rotatingWords}>
-                <span>SUSTAINABLE</span>
-                <span>GREENER</span>
-                <span>CARBON-FREE</span>
-                <span>FUTURE</span>
-                <span>DECOMMISSIONED</span>
+              <span>Sustainable</span>
+              <span>Greener</span>
+              <span>Carbon-Free</span>
+              <span>Future</span>
+              <span>Decommissioned</span>
+
 
               </span>
             </span>
           </span>
           <br />
-          <span className={styles.textDark}>FUTURE</span>
+          <span className={styles.textDark}>Future</span>
 
           <p className={styles.TextDescription}>
             Expert Removal, Recycling, and Restoration

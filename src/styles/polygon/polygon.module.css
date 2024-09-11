@@ -13,7 +13,7 @@
   background: #ffffff;
 padding-bottom:70px ;
 padding-top: 70px;
-padding-left: 4%;
+padding-left: 13%;
 
 }
 .key{
@@ -47,11 +47,11 @@ margin-bottom: 30px;
 .heading {
   color: #004080;
   font-size: 2.5rem;
-  width: 200px;
+  width: 183px;
   white-space: nowrap;
   margin: 0;
   border-bottom: 1px solid #004080;
-  padding-bottom: 10px;
+  padding-bottom: 7px;
 }
 
 .backgroundContainer {

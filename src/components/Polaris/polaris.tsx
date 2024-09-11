@@ -60,7 +60,7 @@ function Polaris() {
      
         </div>
         <div className={styles.cardSmall2}>
-          <h2 className={styles.cardTitle}>WHY CHOOSE US</h2>
+          <h2 className={styles.cardTitle}>Why Choose Us</h2>
           <ul className={styles.bulletList}>
             <li className={styles.bulletItem}>
             <span>.</span>  <strong>Experience</strong><br/> <p>Our commitment to excellence and sustainability drives us to provide comprehensive services that span.</p>

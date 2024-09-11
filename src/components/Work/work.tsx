@@ -37,12 +37,12 @@ const Cards = () => {
   };
 
   const getTitleMarginRight = (index: number) => {
-    const margins = ['210px', '230px', '80px', '80px'];
+    const margins = ['130px', '140px', '0px', '10px'];
     return margins[index] || '10px';
   };
 
   const getTitleMarginBottom = (index: number) => {
-    const margins = ['220px', '200px', '370px', '350px'];
+    const margins = ['220px', '200px', '350px', '350px'];
     return margins[index] || '270px';
   };
 

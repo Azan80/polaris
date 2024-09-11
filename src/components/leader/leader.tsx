@@ -16,7 +16,7 @@ const Leadership = () => {
         />
       </div>
 
-      <h2 className={styles.heading}><span className={styles.Our}>OUR</span> LEADERSHIP</h2>
+      <h2 className={styles.heading}><span className={styles.Our}>Our</span> Leadership</h2>
       <div className={styles.cardContainer}>
 
         <div className={styles.card}>

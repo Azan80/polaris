@@ -58,7 +58,7 @@
 .cardSmall2 {
   flex: 1;
   width: 312px;
-  height: 560px;
+  height: 640px;
   border-radius: 0px 30px 30px 0px;
   background-color: #ffffff;
   margin-right: 30px;
@@ -68,7 +68,7 @@
 .cardLarge {
   flex: 1;
   width: 356px;
-  height: 725px;
+  height: 785px;
   border-radius: 30px;
   background: linear-gradient(172.51deg, #006FB9 -0.92%, #123499 117.44%);
   margin: 0;
@@ -131,6 +131,7 @@
 .cardSmall2 strong {
   color: #011860;
   font-size: 18px;
+  font-weight: 600;
 }
 
 .bulletList {
@@ -140,7 +141,10 @@
   margin-bottom: 30%;
   margin-left: 10%;
 }
-
+.bulletList p{
+  margin-top: 1rem;
+width: 250px;
+}
 .bulletList li {
   position: relative;
   margin-bottom: 1rem;

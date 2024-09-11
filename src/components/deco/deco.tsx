@@ -9,7 +9,7 @@ function Deco() {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>
-        WHY <span style={{ color: '#006fb9' }}>DECOMMISSIONING?</span>
+        Why <span style={{ color: '#006fb9' }}>Decommissioning?</span>
       </h1>
       <div className={styles.Mills}>
         <Image

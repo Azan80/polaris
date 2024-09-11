@@ -1,7 +1,8 @@
 // components/Footer.js
 import React from 'react';
 import Image from 'next/image';
-import {  FaPhoneAlt, FaLinkedin, FaTwitter} from 'react-icons/fa';
+import {  FaPhoneAlt, FaLinkedin} from 'react-icons/fa';
+import { FaXTwitter } from "react-icons/fa6";
 import { BiSolidEnvelope } from "react-icons/bi";
 import { TbBrandFacebookFilled } from "react-icons/tb";
 import { HiMiniBuildingOffice2 } from "react-icons/hi2";
@@ -11,7 +12,7 @@ const Footer = () => {
     return (
         <div className={styles.footer}>
             <div className={styles.footerLogo}>
-                <Image src="/images/applogo/image_360-1.png" alt="Polaris Logo" width={150} height={50} />
+                <Image src="/images/applogo/image_360-1.png" alt="Polaris Logo" width={256} height={67} />
             </div>
             <div className={styles.footerContact}>
                 <h2>Contact Us</h2>
@@ -21,7 +22,7 @@ const Footer = () => {
                 <div className={styles.socialIcons}>
                     <a href="#"><FaLinkedin /></a>
                     <a href="#"><TbBrandFacebookFilled /></a>
-                    <a href="#"><FaTwitter /></a>
+                    <a href="#"><FaXTwitter /></a>
                 </div>
             </div>
             <div className={styles.footerQuickLinks}>
