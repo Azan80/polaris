@@ -95,6 +95,19 @@
   font-weight: 300;
   font-family: "Raleway", sans-serif;
 }
+
+@media (min-width: 1320px) {
+  .cardsContainer {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+@media (min-width:1440px) {
+  .title::after{
+    width: 50%;
+  }
+}
+
 @media (max-width:1280px) {
   .cardsContainer{
     padding-right:5%;

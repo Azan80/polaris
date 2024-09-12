@@ -249,6 +249,7 @@ margin-left:160px ;
   border-bottom: 1px solid #004080;
   padding-bottom: 7px;
   width: 140px;
+  font-family: 'Oswald';
 }
 .cardOverlay {
   position: absolute;
@@ -282,7 +283,7 @@ margin-left:160px ;
 
 .mainContainer {
   width: 100%;
-  max-width: 1100px;
+  max-width: 1090px;
   margin: 100px auto 0;
 }
 
@@ -292,7 +293,7 @@ margin-left:160px ;
   width: 100%;
   padding-top: 15px;
   padding-bottom: 15px;
-padding-right: -90px;
+padding-right: -100px;
 }
 
 .cardsContainer .card {
@@ -356,16 +357,18 @@ padding-right: -90px;
   margin: 0;
   padding: 10px;
   margin-bottom: 200px;
+  margin-right: 1vw;
   transition: transform 0.7s ease-in-out;
-  font-family: "Oswald", sans-serif;
-  font-size: 40px;
+  font-family: "Oswald";
+  font-size: 37px;
   font-weight: 900;
   line-height: 59.28px;
 }
 
 .cardDescription {
   position: absolute;
-margin-top: 250px;
+  margin-top: 250px;
+  font-family: 'Raleway',sans-serif;
   margin-bottom: 160px;
   margin-right: 5%;
   padding: 10px;
@@ -390,7 +393,14 @@ margin-top: 250px;
   max-height: 0;
   transform: translateY(100%);
 }
+@media (min-width: 1440px) {
+  .headingContainer{
+    margin-left:15vw;
+    margin-top: -4vw;
+  }
 
+  
+  }
 @media screen and (max-width: 600px) {
   .cardsContainer {
     flex-direction: column;
