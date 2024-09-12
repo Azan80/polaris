@@ -6,9 +6,9 @@ function Polaris() {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>
-        <span className={styles.Dark}>WELCOME TO </span>
-        POLARIS<br />
-        ECOSYSTEMS!
+        <span className={styles.Dark}>Welcome to </span>
+        Polaris<br />
+        EcoSystem!
         <span className={styles.iconCon}>
           <Image
             src="/icons/Frame (1).png"
@@ -63,13 +63,13 @@ function Polaris() {
           <h2 className={styles.cardTitle}>Why Choose Us</h2>
           <ul className={styles.bulletList}>
             <li className={styles.bulletItem}>
-            <span>.</span>  <strong>Experience</strong><br/> <p>Our commitment to excellence and sustainability drives us to provide comprehensive services that span.</p>
+     <strong>Experience</strong><br/> <p>Our commitment to excellence<br/> and sustainability drives us to<br/> provide comprehensive services<br/> that span.</p>
             </li>
             <li className={styles.bulletItem}>
-            <span>.</span>  <strong>Support</strong><br/> <p>Our commitment to excellence and sustainability drives us to provide comprehensive services that span.</p>
+ <strong>Support</strong><br/><p>Our commitment to excellence<br/> and sustainability drives us to<br/> provide comprehensive services<br/> that span.</p>
             </li>
             <li className={styles.bulletItem}>
-            <span>.</span>  <strong>Industry Certified</strong><br/><p>Our commitment to excellence and sustainability drives us to provide comprehensive services that span.</p> 
+  <strong>Industry Certified</strong><br/><p>Our commitment to excellence<br/> and sustainability drives us to<br/> provide comprehensive services<br/> that span.</p>
             </li>
           </ul>
         </div>

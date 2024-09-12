@@ -14,10 +14,10 @@ function Deco() {
       <div className={styles.Mills}>
         <Image
         
-        src="/images/webimage/mills.png"
+        src="/images/webimage/eco.png"
         alt="why-decommissioning"
-        width={670}
-        height={413}
+        width={600}
+        height={500}
         
         />
       </div>

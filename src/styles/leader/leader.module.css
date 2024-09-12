@@ -15,6 +15,7 @@
     width: 100%;
     height: auto; 
     z-index: 1;
+    opacity: 70%;
 }
 
 
@@ -79,15 +80,18 @@
     transition: transform 0.3s ease;
 }
 
-.imageContainer:hover .image {
-    transform: scale(1.1);
-}
+.image:hover {
+    transform: scale(1.5);
+  }
+  
 
 .image {
     width: 100%;
     height: auto;
     object-fit: cover; 
     transition: transform 0.3s ease; 
+    opacity: 90%;
+    transform: scale(1.1);
 }
 
 
@@ -132,7 +136,14 @@
     background-color: #ffffff;
 }
 
+@media (min-width: 1440px) {
+    .heading::after {
+        width: 18%;
+        left: 49%;
 
+    }
+     
+     }
 @media (max-width: 1000px) {
     .heading {
         font-size: 32px; 
