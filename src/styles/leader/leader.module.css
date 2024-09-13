@@ -33,7 +33,7 @@
     content: '';
     position: absolute;
     bottom: -10px;
-    left: 49%;
+    left: 50%;
     transform: translateX(-50%);
     width: 20%;
     height: 1px;
@@ -91,8 +91,9 @@
     height: auto;
     object-fit: cover; 
     transition: transform 0.3s ease; 
-    opacity: 90%;
+    opacity: 100%;
     transform: scale(1.1);
+
 }
 
 
@@ -140,7 +141,7 @@
 
 @media (min-width: 1440px) {
     .heading::after {
-        width: 18%;
+        width: 15%;
         left: 49%;
 
     }
