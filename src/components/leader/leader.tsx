@@ -32,7 +32,7 @@ const Leadership = () => {
           <h3 className={styles.name}><span className={styles.wes}>Wesley</span> Ladd</h3>
           <p className={styles.title}>Chief Executive Officer</p>
           <p className={styles.description}>
-            Wesley Ladds career is marked by his leadership of consulting projects for major organizations, including Fortune 100 firms and government clients.
+            Wesley Ladd&apos;s career is marked by his leadership of consulting projects for major organizations, including Fortune 100 firms and government clients.
           </p>
           <button className={styles.readMore}>Read more</button>
         </div>

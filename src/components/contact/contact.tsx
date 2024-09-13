@@ -18,14 +18,14 @@ const ContactUs = () => {
                 <h1><span className={styles.contact}>Contact</span> Us</h1>
                 <form className={styles.form}>
                     <div className={styles.inputGroup}>
-                        <input type="text" placeholder="      First Name" required />
-                        <input type="text" placeholder="      Last Name" required />
+                        <input type="text" placeholder="First Name" required />
+                        <input type="text" placeholder="Last Name" required />
                     </div>
                     <div className={styles.inputGroup}>
-                        <input type="email" placeholder="      Email" required />
-                        <input type="tel" placeholder="      Phone" required />
+                        <input type="email" placeholder="Email" required />
+                        <input type="tel" placeholder="Phone" required />
                     </div>
-                    <textarea placeholder="      Message..." required></textarea>
+                    <textarea placeholder="Message..." required></textarea>
                     <button type="submit">Contact Us</button>
                 </form>
             </div>

@@ -399,7 +399,13 @@ padding-right: -100px;
     margin-top: -4vw;
   }
 
-  
+
+  }
+  @media (min-width:1680px) {
+    .headingContainer{
+      margin-left:20vw;
+      margin-top: -6vw;
+    }
   }
 @media screen and (max-width: 600px) {
   .cardsContainer {

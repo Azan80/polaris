@@ -6,6 +6,7 @@
     overflow: hidden;
     padding-bottom: 15%;
     background-color: #f7f7f7;
+    font-family: 'Oswald';
 }
 
 .backgroundImage {
@@ -120,6 +121,7 @@
     margin-bottom: 20px;
     color: #000000;
     font-weight: 300;
+    font-family: 'Raleway',sans-serif;
 }
 
 .readMore {

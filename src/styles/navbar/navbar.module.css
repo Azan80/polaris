@@ -4,6 +4,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 10px 20px;
+  height: 112px;
   background: linear-gradient(88.68deg, #01002E 1.13%, #123499 104.18%);
   position: relative; 
 }
@@ -22,6 +23,7 @@
   font-weight: 200;
   margin-right: 5%;
   align-items: center;
+  font-size: 18px;
 }
 
 .navLink, .navLinkContact {

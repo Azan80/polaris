@@ -10,7 +10,7 @@
   margin-top: 40vh;
   font-size: 2.5rem;
   margin-bottom: 20px;
-  margin-right: 50%;
+  margin-right: 45vw;
   color: #0a2472;
   font-weight: 700;
   position: relative;
@@ -25,6 +25,7 @@
     transform: translateX(-50%);
     width: 57%;
     height: 1px;
+    max-width: 350px;
     background-color: #123499;
 }
 
@@ -95,6 +96,7 @@
   font-weight: 300;
   font-family: "Raleway", sans-serif;
 }
+
 
 @media (min-width: 1320px) {
   .cardsContainer {
