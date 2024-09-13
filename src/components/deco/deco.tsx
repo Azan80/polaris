@@ -13,12 +13,15 @@ function Deco() {
         Why <span style={{ color: '#006fb9' }}>Decommissioning?</span>
       </h1>
       <div className={styles.para}>
-        <p>Decommissioning safely removes outdated or unsafe equipment and facilities from service to comply with regulations, manage risks, and make room for newer technologies.</p>
+        <p>Decommissioning safely removes outdated or unsafe equipment <br/>and facilities from service to comply with regulations, manage<br/> risks, and make room for newer technologies.</p>
+        <button className={styles.requestButton}>
+                Request decommissioning service <MdArrowOutward size={24}className={styles.icon2} />
+      </button>
       </div>
 
-      <button className={styles.requestButton}>
-        Request decommissioning service <MdArrowOutward size={24}className={styles.icon2} />
-      </button>
+     
+
+     
 
       <div className={styles.Mills}>
         <Image
