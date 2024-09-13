@@ -264,14 +264,14 @@ margin-left:160px ;
   color: #123499;
   font-weight: 600;
   font-size: 36px;
-  transition: all 0.7s ease-in-out;
+  transition: all 0.6s ease-in-out;
 }
 
 .we {
   color: #006FB9;
   font-weight: 600;
   font-size: 36px;
-  transition: all 0.7s ease-in-out;
+  transition: all 0.6s ease-in-out;
 }
 
 .container {
@@ -305,7 +305,7 @@ padding-right: -100px;
   border: 1px solid #ccc;
   border-radius: 30px;
   height: 150px;
-  transition: all 0.7s ease-in-out;
+  transition: all 0.6s ease-in-out;
   cursor: pointer;
   display: flex;
   flex-direction: column;
@@ -332,7 +332,7 @@ padding-right: -100px;
   justify-content: center;
   align-items: center;
   overflow: visible;
-  transition: transform 0.2s ease-in-out;
+  transition: transform 0.6s ease-in-out;
   height: 50%;
   width: 100%;
   transform-origin: bottom right;
@@ -343,14 +343,14 @@ padding-right: -100px;
   white-space: nowrap;
   position: relative;
   margin-left: 350px;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.6s ease-in-out;
 }
 
 .titleHorizontal {
   transform: rotate(0deg);
   margin-right: 90%;
   position: absolute;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.7s ease-in-out;
 }
 
 .cardTitle {
@@ -358,7 +358,7 @@ padding-right: -100px;
   padding: 10px;
   margin-bottom: 200px;
   margin-right: 1vw;
-  transition: transform 0.7s ease-in-out;
+  transition: transform 0.6s ease-in-out;
   font-family: "Oswald";
   font-size: 37px;
   font-weight: 900;
@@ -378,7 +378,7 @@ padding-right: -100px;
   opacity: 0;
   max-height: 0;
   overflow: hidden;
-  transition: opacity 0.2s ease-in-out, max-height 0.2s ease-in-out, transform 0.2s ease-in-out;
+  transition: opacity 0.6s ease-in-out, max-height 0.6s ease-in-out, transform 0.6s ease-in-out;
   transform: translateY(100%);
 }
 
