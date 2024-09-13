@@ -71,7 +71,7 @@ function Home() {
             className={styles.project2}
            />
            <h6>Removel</h6>
-           <p>Safe and<br/> seamless<br/>removal</p>
+           <p>Safe and<br/> seamless<br/>removel</p>
            </div>
            <div className={styles.box3}>
            <Image

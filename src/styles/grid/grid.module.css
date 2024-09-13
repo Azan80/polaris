@@ -1,0 +1,115 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  position: relative;
+  height: 100vh;
+  background-color: white;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 5vw;
+  margin-bottom: 10vw;
+}
+
+.imageGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.imageGridRight {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.textContent {
+  margin-left: 5vw;
+  margin-top: 6vw;
+}
+
+.imageWrapper {
+  position: relative;
+}
+
+.imageWrapperRight {
+  position: relative;
+  margin-left: 1vw;
+  top: 5vh;
+}
+
+.image1 {
+  width: 172px;
+  height: 209px;
+}
+
+.image2 {
+  width: 172px;
+  height: 165px;
+}
+
+.image3 {
+  width: 172px;
+  height: 165px;
+}
+
+.image4 {
+  width: 172px;
+  height: 209px;
+}
+
+.heading {
+  color: #011860;
+  width: 503px;
+  font-size: 32px;
+  font-weight: 600;
+  font-family: "Oswald";
+}
+
+.highlight {
+  color: #006FB9;
+}
+
+.description {
+  width: 444px;
+  font-weight: 300;
+  margin-top: 1rem;
+  font-size: 16px;
+  color: black;
+  font-family: 'Raleway', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@media (min-width: 1440px) {
+  .grid {
+      padding-left: 8vw;
+      margin-bottom: 12vw;
+  }
+
+  .textContent {
+      margin-left: 8vw;
+      margin-top: 8vw;
+  }
+
+  .heading {
+      width: 603px;
+      font-size: 40px;
+  }
+
+  .description {
+      width: 550px;
+      font-size: 18px;
+  }
+
+  .image1, .image2, .image3, .image4 {
+      width: 200px;
+      height: auto;
+  }
+
+  .imageWrapperRight {
+      margin-left: 2vw;
+      top: 7vh;
+  }
+}

@@ -195,7 +195,7 @@ left: 530px;
 @keyframes rotateWords {
   0% {
     opacity: 0;
-    transform: translateY(100%);
+    transform: translateY(-100%);
   }
   10% {
     opacity: 1;
@@ -207,13 +207,14 @@ left: 530px;
   }
   40% {
     opacity: 0;
-    transform: translateY(-100%);
+    transform: translateY(100%);
   }
   100% {
     opacity: 0;
-    transform: translateY(-100%);
+    transform: translateY(100%);
   }
 }
+
 
 .TextDescription {
   margin-top: 2%;
