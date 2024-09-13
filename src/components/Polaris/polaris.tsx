@@ -11,10 +11,10 @@ function Polaris() {
         EcoSystem!
         <span className={styles.iconCon}>
           <Image
-            src="/icons/Frame (1).png"
+            src="/icons/image.png"
             alt="Logo"
-            width={10}
-            height={10}
+            width={100}
+            height={100}
             className={styles.icon}
           />
         </span>
