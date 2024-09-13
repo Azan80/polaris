@@ -20,9 +20,9 @@ const Footer = () => {
                 <p><BiSolidEnvelope size={23} /> Polariseco@gmail.com</p>
                 <p><FaPhoneAlt /> (555) 123-4567</p>
                 <div className={styles.socialIcons}>
-                    <a href="#"><FaLinkedin /></a>
-                    <a href="#">< FaXTwitter /></a>
-                    <a href="#"><TbBrandFacebookFilled/></a>
+                    <a className ={styles.lin} href="#"><FaLinkedin /></a>
+                    <a className ={styles.tw} href="#">< FaXTwitter /></a>
+                    <a  className ={styles.fb}href="#"><TbBrandFacebookFilled/></a>
                 </div>
             </div>
             <div className={styles.footerQuickLinks}>

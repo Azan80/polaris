@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '@/components/navbar/navbar'
 import Home from '@/components/Home/home'
+import Core from '@/components/core/core'
 import Deco from '@/components/deco/deco'
 import Polaris from '@/components/Polaris/polaris'
 import Work from '@/components/Work/work'
@@ -13,6 +14,7 @@ function page() {
     <div>
 <Navbar/>
 <Home/>
+<Core/>
 <Deco/>
 <Polaris/>
 <Work/>

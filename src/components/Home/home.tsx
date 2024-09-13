@@ -43,10 +43,7 @@ function Home() {
         </div>
 
         <div className={styles.containerImage2}>
-          <div className={styles.lineContainer}>
-            <div className={styles.verticalLine}></div>
-            <div className={styles.verticalLine}></div>
-          </div>
+          
           <Image
             src="/images/backgroundimage/real.png"
             alt="Logo"
@@ -54,7 +51,39 @@ function Home() {
             height={500}
             className={styles.backgroundImage2}
           />
-
+           <div className={styles.box1}>
+           <Image
+            src="/icons/project1.png"
+            alt="Logo"
+            width={100}
+            height={100}
+            className={styles.project1}
+           />
+           <h6>Planning</h6>
+           <p>Strategic<br/> planning</p>
+           </div>
+           <div className={styles.box2}>
+           <Image
+            src="/icons/image (1).png"
+            alt="Logo"
+            width={100}
+            height={100}
+            className={styles.project2}
+           />
+           <h6>Removel</h6>
+           <p>Safe and<br/> seamless<br/>removal</p>
+           </div>
+           <div className={styles.box3}>
+           <Image
+            src="/icons/icon3.png"
+            alt="Logo"
+            width={100}
+            height={100}
+            className={styles.project3}
+           />
+           <h6>Restoration</h6>
+           <p>Transforming<br/> waste into<br/> resources</p>
+           </div>
         </div>
       </div>
     </div>
