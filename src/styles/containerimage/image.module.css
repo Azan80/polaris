@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    font-family: 'Oswald';
+
+  }
+  
+  .imagecontainer {
+    width: 100%;
+    position: relative;
+  }
+  
+  .image {
+    width: 100%;
+    height: 231px;
+    object-fit: cover;
+    object-position: center 80%;
+  }
+  
+  .imagecontainer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(261.89deg, rgba(46, 167, 224, 0.7) -4.3%, rgba(18, 52, 153, 0.7) 39.67%);
+    z-index: 1;
+  }
+  
+  .imagecontainer img {
+    position: relative;
+    z-index: 0;
+  }
+  .textOverlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+  }
+  
