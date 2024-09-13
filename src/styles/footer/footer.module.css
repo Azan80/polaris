@@ -65,13 +65,13 @@ gap: 20px;
 margin-left: -10px;
 }
 .fb:hover {
-    color:rgb(0, 183, 255); 
+    color:#1269ff; 
   }
   .tw:hover{
     color:black; 
   }
   .lin:hover{
-    color:rgb(15, 203, 75); 
+    color:#0d7ab5; 
   }
 .socialIcons a {
     margin: 0 10px;
