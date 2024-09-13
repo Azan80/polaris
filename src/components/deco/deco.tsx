@@ -3,6 +3,7 @@ import { PiFeather } from 'react-icons/pi';
 import { TbWorld } from 'react-icons/tb';
 import { FiDollarSign } from 'react-icons/fi';
 import { IoMdCheckboxOutline } from 'react-icons/io';
+import { MdArrowOutward } from "react-icons/md";
 import styles from '@/styles/deco/deco.module.css';
 import Image from 'next/image';
 function Deco() {
@@ -11,6 +12,14 @@ function Deco() {
       <h1 className={styles.title}>
         Why <span style={{ color: '#006fb9' }}>Decommissioning?</span>
       </h1>
+      <div className={styles.para}>
+        <p>Decommissioning safely removes outdated or unsafe equipment and facilities from service to comply with regulations, manage risks, and make room for newer technologies.</p>
+      </div>
+
+      <button className={styles.requestButton}>
+        Request decommissioning service <MdArrowOutward size={24}className={styles.icon2} />
+      </button>
+
       <div className={styles.Mills}>
         <Image
         
