@@ -1,0 +1,115 @@
+.container {
+    background-color: white;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 120vh;
+}
+
+.imagecon {
+    margin-left: 570px;
+    margin-top: 50px;
+}
+
+.image {
+    width: 467px;
+height: 527px; 
+    object-fit: cover;
+    transform: scale(1); 
+    transform-origin: center; 
+}
+
+.title {
+    color: #011860;
+    font-family: 'Oswald';
+    font-size: 40px;
+    font-weight: 600;
+    margin-right: 700px;
+    margin-top: -540px;
+    text-align: left;
+}
+
+.title span {
+    color: #006FB9;
+}
+
+.title::after {
+    content: '';
+    display: block;
+    width: 94%;
+    height: 1px;
+    margin-top: 1rem;
+    margin-left: 10px;
+    background-color: #123499;
+    position: relative;
+}
+
+.info1, .info2 {
+    display: flex;
+    align-items: center;
+    color: black;
+    margin-right: 430px;
+
+}
+
+.info1 {
+    margin-top: 20px;
+    margin-right: 600px;
+
+}
+
+.info2 {
+    margin-top: 20px;
+    margin-right: 803px;
+}
+.info1,.info2{
+    font-family: 'Raleway',system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 23.48px;
+    text-align: left;
+}
+.info1 span, .info2 span {
+    margin-right: 10px;
+}
+.icon {
+    color: #ffffff;
+    width: 30px; 
+    height: 30px; 
+    border-radius: 50%; 
+    background-color: #011860;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+.textcontainer {
+margin-right: 500px;
+margin-top: 50px;
+}
+
+.description {
+    width: 432px;
+    font-weight: 300;
+    margin-top: 1rem;
+    font-size: 16px;
+    color: black;
+    font-family: 'Raleway', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+line-height: 19.78px;
+text-align: left;
+
+}
+
+
+.ceocon{
+
+margin-right: 900px;
+margin-top: -550px;
+}
+.ceo{
+    width: 422px;
+height: 278px;
+
+
+}
