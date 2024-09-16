@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '@/styles/challenge/challenge.module.css'
+import styles from '@/styles/Challenge/challenge.module.css'
 import Image from 'next/image'
 function challenge() {
   return (
