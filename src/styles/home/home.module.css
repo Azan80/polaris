@@ -288,7 +288,7 @@ left: 530px;
         width: 100%;
     }
   .containerText {
-    margin-left: -6%;
+    margin-left: -11%;
   }
   .containerText span {
     font-size: 36px;
@@ -379,6 +379,7 @@ left: -100px;
   }
   .containerText {
     font-size: 39px;
+   
   }
   .rotatingWords{
     opacity: 100%;
