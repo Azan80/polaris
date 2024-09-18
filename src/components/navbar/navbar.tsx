@@ -5,8 +5,8 @@ import styles from '@/styles/navbar/navbar.module.css';
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
-  const [aboutOpen, setAboutOpen] = useState(false);
-  const [capabilitiesOpen, setCapabilitiesOpen] = useState(false);
+  const [aboutOpen, setAboutOpen] = useState(true);
+  const [capabilitiesOpen, setCapabilitiesOpen] = useState(true);
 
   const toggleMenu = () => setIsOpen(prev => !prev);
   const toggleAboutDropdown = () => setAboutOpen(prev => !prev);
