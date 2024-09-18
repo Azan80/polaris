@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from '@/styles/containerimage/image.module.css';
+
 import Image from 'next/image';
 
 function ApproachImage() {
@@ -8,7 +9,7 @@ function ApproachImage() {
       <div className={styles.imagecontainer}>
         <Image
           src='/images/backgroundimage/solarmill.jpg'
-          alt='Solar mill background' // Add the alt attribute here
+          alt='Solar mill background' 
           width={500}
           height={500}
           className={styles.image}

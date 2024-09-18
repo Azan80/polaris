@@ -16,7 +16,7 @@ function piller() {
         /></div>
       
       <div className={styles.title2}>
-      <h1>Robust project <span>planning</span></h1>
+      <h1>  <span> Robust project</span> planning</h1>
       </div>
       <div className={styles.description}>
         <p>Robust project planning ensures clear goals, resource allocation, and risk management to keep projects on track and aligned with objectives. It involves defining tasks, setting timelines, and maintaining flexibility to adapt to changing needs.</p>

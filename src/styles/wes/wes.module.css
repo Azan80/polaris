@@ -75,8 +75,8 @@
 }
 .icon {
     color: #ffffff;
-    width: 30px; 
-    height: 30px; 
+    width: 25px; 
+    height: 25px; 
     border-radius: 50%; 
     background-color: #011860;
     display: flex; 
@@ -100,12 +100,12 @@ text-align: left;
 
 }
 .ceocon{
-    margin-top: -650px;
-    margin-left: 800px;
+    margin-top: -600px;
+    margin-left: 760px;
 }
 .ceo{
-    width: 422px;
-height: 278px;
+    width: 352px;
+height: 200px;
 
 
 }

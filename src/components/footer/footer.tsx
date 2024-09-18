@@ -12,7 +12,7 @@ const Footer = () => {
     return (
         <div className={styles.footer}>
             <div className={styles.footerLogo}>
-                <Image src="/images/applogo/image_360-1.png" alt="Polaris Logo" width={256} height={67} />
+                <Image src="/images/applogo/image_360-1.png" alt="Polaris Logo" width={256} height={57} className={styles.logo} />
             </div>
             <div className={styles.footerContact}>
                 <h2>Contact Us</h2>

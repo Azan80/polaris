@@ -20,7 +20,7 @@ function page() {
 <Work/>
 <Polygon/>
 <Leadership/>
-<ContactUs/>
+<ContactUs homePage={true}/>
 <Footer/>
 
     </div>

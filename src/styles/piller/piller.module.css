@@ -31,8 +31,9 @@
 }
 
 .bgimg1 {
-    margin-right: 900px;
-    margin-top: 50px;
+    margin-right: 1000px;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 .image {
@@ -108,20 +109,20 @@
 
 .bgimg4 {
     margin-left: 900px;
-    margin-top: -150px;
+    margin-top: -250px;
 }
 
 .image4 {
     width: 286px;
     height: 298px;
 }
-
 .title4 {
     color: #011860;
     font-size: 36px;
     font-weight: 600;
     font-family: 'Oswald';
     margin-right: 400px;
+
 }
 
 .title4 span {

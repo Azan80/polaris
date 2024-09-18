@@ -18,6 +18,7 @@
     position: relative;
     display: inline-block;
     text-align: center;
+    margin-top: 5rem;
   }
   
   .title::after {
@@ -80,9 +81,15 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    margin-top: -10px;
 
   }
-  
+.number1{
+  margin-top: 10px;
+}
+.number4{
+  margin-top: 10px;
+}
   .descriptionContainer {
     display: flex;
     flex-direction: column;

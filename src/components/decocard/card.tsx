@@ -53,7 +53,7 @@ function card() {
             className={styles.image}
           />
           <div className={styles.cardContent}>
-            <div className={styles.number}>03</div>
+            <div className={`${styles.number} ${styles.number3}`}>03</div>
             <div className={styles.descriptionContainer}>
               <h2 className={styles.descriptionTitle}>Recycling and Responsible Disposal</h2>
               <p className={styles.description}>
@@ -71,7 +71,7 @@ function card() {
             className={styles.image}
           />
           <div className={styles.cardContent}>
-            <div className={styles.number}>04</div>
+            <div className={`${styles.number} ${styles.number4}`}>04</div>
             <div className={styles.descriptionContainer}>
               <h2 className={styles.descriptionTitle}>Site Restoration</h2>
               <p className={styles.description}>
@@ -89,7 +89,7 @@ function card() {
             className={styles.image}
           />
           <div className={styles.cardContent}>
-            <div className={styles.number}>05</div>
+            <div className={`${styles.number} ${styles.number5}`}>05</div>
             <div className={styles.descriptionContainer}>
               <h2 className={styles.descriptionTitle}>Documentation and Certification</h2>
               <p className={styles.description}>

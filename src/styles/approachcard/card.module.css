@@ -74,6 +74,7 @@
     font-weight: 600;
     width: 93px;
     height: 87px;
+    margin-top: -25px;
     font-family: 'Oswald';
     background: #407BFF33; 
     display: flex;
@@ -82,7 +83,9 @@
     text-align: center;
 
   }
-  
+  .number3{
+    margin-top: -8px;
+  }
   .descriptionContainer {
     display: flex;
     flex-direction: column;

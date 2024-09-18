@@ -17,7 +17,7 @@ function card() {
             className={styles.image}
           />
           <div className={styles.cardContent}>
-            <div className={styles.number}>01</div>
+            <div className={`${styles.number} ${styles.number1}`}>01</div>
             <div className={styles.descriptionContainer}>
               <h2 className={styles.descriptionTitle}>Comprehensive Inspections</h2>
               <p className={styles.description}>
@@ -71,7 +71,7 @@ function card() {
             className={styles.image}
           />
           <div className={styles.cardContent}>
-            <div className={styles.number}>04</div>
+            <div className={`${styles.number} ${styles.number4}`}>04</div>
             <div className={styles.descriptionContainer}>
               <h2 className={styles.descriptionTitle}>Continuous Monitoring</h2>
               <p className={styles.description}>
