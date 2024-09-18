@@ -4,6 +4,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 .headingcon {
@@ -33,7 +34,8 @@
 }
 
 .textcontainer {
-    margin-right: 450px;
+    margin-right: 460px;
+   margin-bottom: -20px;
 }
 
 .description {
@@ -47,13 +49,16 @@
 
 .imagecontainer {
     margin-left: 500px; 
-    margin-top: -370px; 
+    margin-top: -390px; 
 }
 
 .image {
-    width: 438px;
-    height: 394px;
-    object-fit: cover;
+ 
+ width: 438px;
+ height: 394px;
+object-fit: cover;
+ 
+
 }
 
 

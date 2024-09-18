@@ -1,6 +1,7 @@
 
 .mainContainer {
   display: flex;
+  font-family: 'Oswald';
   flex-direction: column;
   align-items: flex-start;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -17,6 +18,7 @@
   background: #ffffff;
 padding-bottom:70px ;
 padding-top: 50px;
+font-family: 'Oswald';
 padding-left: 9vw;
 
 }
@@ -32,14 +34,15 @@ color: #123499;
 .phases{
   font-weight: 600;
   color: #006FB9;
+  font-family: 'Oswald';
 
 }
 .perm {
   white-space: nowrap;
-margin-bottom: 30px;
+margin-bottom: 20px;
 }
 .fin{
-  margin-top: 30px;
+  margin-top: 10px;
 }
 .vertical {
   width: 1px;
@@ -95,16 +98,20 @@ margin-bottom: 30px;
 .iconStructure {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 100px; /* Default gap for larger screens */
+  gap: 100px;
   width: 100%;
   max-width: 800px;
   position: relative;
+  margin-top: 30px;
+
+
 }
 
 .iconItem {
   text-align: center;
   color: #ffffff;
   position: relative;
+
 }
 
 .iconItem::before {
@@ -120,17 +127,17 @@ margin-bottom: 30px;
 .iconItem:nth-child(1)::before,
 .iconItem:nth-child(2)::before,
 .iconItem:nth-child(3)::before {
-  top: 5rem;
+  top: 5.5rem;
   left: 16rem;
-  width: 150px;
+  width: 140px;
 }
 
 .iconItem:nth-child(4)::before,
 .iconItem:nth-child(5)::before,
 .iconItem:nth-child(6)::before {
-  top: 2rem; 
+  top: 3rem; 
   left: 16rem;
-  width: 150px;
+  width: 140px;
 }
 
 .iconItem:nth-child(3)::before,
@@ -143,8 +150,10 @@ margin-bottom: 30px;
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: 70px;
-  height: 70px;
+  width: 91px;
+  height: 91px;
+
+  
 }
 
 .doubleCircle::before,
@@ -170,14 +179,15 @@ margin-bottom: 30px;
 }
 
 .icon {
-  font-size: 1.6rem; 
+  width: 41px;
+  height: 40px;
   z-index: 2;
 }
 
 .verticalLine {
   position: absolute;
 margin-left: 610px; 
-margin-top: 140px;
+margin-top: 177px;
 
   width: 1px;
   height: 70px;
@@ -232,11 +242,30 @@ margin-top: 140px;
     grid-template-columns: 1fr; 
     gap: 30px;
   }
+  .headingContainer{
+padding-left: 30%;
+  }
 
   .iconItem::before {
     display: none; 
   }
   .verticalLine{
     display: none;
+  }
+}
+@media (max-width: 600px) {
+  .iconItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .perm {
+    order: 1;
+    margin-top: 10px;
+  }
+
+  .doubleCircle {
+    order: 0;
   }
 }

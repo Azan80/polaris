@@ -8,7 +8,7 @@ function Polaris() {
       <h1 className={styles.title}>
         <span className={styles.Dark}>Welcome to </span>
         Polaris<br />
-        EcoSystem!
+        EcoSystems!
         <span className={styles.iconCon}>
           <Image
             src="/icons/image.png"

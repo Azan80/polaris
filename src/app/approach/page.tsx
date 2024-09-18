@@ -12,10 +12,10 @@ function page() {
      <Navbar/>
      <Approachimage/>
      <Grid/>
-    <Ourapproach/>
-    <Piller/>
+     <Ourapproach/>
+    {/* <Piller/>
     <ContactUs/>
-<Footer/>
+<Footer/>  */}
 
      
     </div>

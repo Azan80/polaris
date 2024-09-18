@@ -111,7 +111,7 @@
 .title {
     font-size: 20px;
     font-family: 'Raleway', sans-serif;
-    font-weight: 500;
+    font-weight: 300;
     line-height: 23.48px;
     margin-bottom: 20px;
     color: #000000;
@@ -129,6 +129,8 @@
     width: 126.05px;
     height: 40.63px;
     gap: 0px;
+    font-weight: 300;
+    font-family: 'Raleway',system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     border-radius: 100px;
     color: #011860;
     border: 1px solid #123499;

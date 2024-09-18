@@ -9,7 +9,8 @@ import Image from 'next/image';
 function Deco() {
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>
+      <div className={styles.decoheading}>
+         <h1 className={styles.title}>
         Why <span style={{ color: '#006fb9' }}>Decommissioning?</span>
       </h1>
       <div className={styles.para}>
@@ -18,6 +19,8 @@ function Deco() {
                 Request decommissioning service <MdArrowOutward size={24}className={styles.icon2} />
       </button>
       </div>
+      </div>
+     
 
      
 

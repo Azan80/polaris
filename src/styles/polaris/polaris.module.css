@@ -158,11 +158,11 @@ margin-top:  1rem;
 
 .bulletList li::before {
   content: '•';
-  font-size: 50px; 
+  font-size: 40px; 
   color: #011860;
   position: absolute;
   left: 0;
-  top: -22px;
+  top: -15px;
 }
 
 .bulletItem {
@@ -196,6 +196,18 @@ margin-top:  1rem;
   height: 273px;
   border-radius: 0 0 0px 30px;
   object-fit: cover ;
+}
+.cardSmall1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+
+
+}
+@media (min-width:900px) {
+  .bulletList{
+    margin-top: 30px;
+  }
 }
 @media (min-width: 1320px) {
 .title{
@@ -237,7 +249,14 @@ margin-top:  1rem;
 
   .cardSmall1, .cardSmall2 {
     margin: 15px 0;
-    border-radius: 0;
+    border-radius: 30px;
+    
+  }
+  .cardSmall1{
+    padding-right: 60px;
+  }
+  .cardSmall2{
+    height: 550px;
   }
 
   .cardLarge {
@@ -270,6 +289,20 @@ margin-top:  1rem;
   .top, .bottom {
    border-radius:30px ;
   }
+  .top{
+    width: 100%;
+    height: 446px;
+  }
+  
+  .bottom {
+    width: 100%;
+    height: 373px;
+
+  }
+  .top{
+    margin-bottom: 30px;
+  }
+ 
 }
 
 
@@ -277,6 +310,7 @@ margin-top:  1rem;
   .title {
     font-size: 33px;
 text-align: center;
+padding-top: 20%;
   }
 
   .description {
@@ -295,11 +329,39 @@ text-align: center;
   .bulletList {
     margin-left: 2%;
   }
+
+  .cardSmall1{
+    padding-right: 40px;
+  }
+  .imageTop{
+margin: 0 auto;
+  }
+.cardLarge{
+  width: 85%;
+margin-left: 7.5%;
+}
+.cardSmall2{
+  width: 85%;
+  margin-left: 7%;
+}
+ .imageTop{
+  margin-bottom: 5px;
+  margin-right: 30px;
+ }
+  .top{
+    width: 100%;
+    height: 446px;
+
+  }
+  
+  .bottom {
+    width: 100%;
+    height: 373px;
+
+  }
 }
 @media (min-width:1920px) {
-  .description{
- 
-  }
+  
   .cardLarge h1{
 margin-left: 10%;
   }

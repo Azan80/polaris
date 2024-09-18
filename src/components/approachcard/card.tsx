@@ -54,7 +54,7 @@ function Card() {
             className={styles.image}
           />
           <div className={styles.cardContent}>
-            <div className={styles.number}>03</div>
+            <div className={`${styles.number} ${styles.number3}`}>03</div>
             <div className={styles.descriptionContainer}>
               <h2 className={styles.descriptionTitle}>Cutting-Edge Reporting Software</h2>
               <p className={styles.description}>
