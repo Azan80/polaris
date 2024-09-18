@@ -13,9 +13,9 @@ function page() {
      <Approachimage/>
      <Grid/>
      <Ourapproach/>
-    {/* <Piller/>
+     <Piller/>
     <ContactUs/>
-<Footer/>  */}
+<Footer/>  
 
      
     </div>
