@@ -61,7 +61,7 @@ const Home = () => {
             analysis, and cutting-edge technology solutions.
           </p>
           <p className={styles.description}>
-          We understand that in the rapidly evolving renewable energy sector, efficiency and precision are paramount. That's why we've developed a unique methodology that ensures timely, efficient, and budget-conscious project delivery. Our team of experts leverages years of industry experience to anticipate challenges and create innovative solutions, setting us apart in the field of large-scale solar and energy storage projects.
+          We understand that in the rapidly evolving renewable energy sector, efficiency and precision are paramount. That&apos;s why we&apos;ve developed a unique methodology that ensures timely, efficient, and budget-conscious project delivery. Our team of experts leverages years of industry experience to anticipate challenges and create innovative solutions, setting us apart in the field of large-scale solar and energy storage projects.
           </p>
         </div> 
     </div>
