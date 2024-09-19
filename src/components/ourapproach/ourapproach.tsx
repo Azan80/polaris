@@ -5,7 +5,8 @@ import Image from 'next/image'
 function ourapproach() {
   return (
     <div className={styles.container}>
-      <div className={styles.headingcon}>
+      <div className={styles.textcontent}>
+        <div className={styles.headingcon}>
         <h1>Our <span>Approach</span></h1>
       </div>
       <div className={styles.textcontainer}>
@@ -16,6 +17,8 @@ function ourapproach() {
           By choosing Polaris EcoSystems, you&apos;re not just selecting a service provider - you&apos;re partnering with a forward-thinking team dedicated to maximizing the value and sustainability of your renewable energy investments. Let us help you navigate the complexities of utility-scale solar and energy storage systems, ensuring your projects are not just successful today, but continue to deliver value well into the future
           </p>
       </div>
+      </div>
+      
       <div className={styles.imagecontainer}>
       <Image
             src="/work/Rectangle 8.png"

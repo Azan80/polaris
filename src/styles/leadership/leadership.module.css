@@ -59,5 +59,17 @@ font-size: 20px;
 text-align: center;
 width: 975px;
 color: #000000;
+width: 100%;
+max-width: 900px;
 
+
+  }
+  @media (max-width:900px) {
+    .description{
+      padding-left:5% ;
+      padding-right: 5%;
+      margin-bottom: 30px;
+      margin-top: 50px;
+      
+    }
   }

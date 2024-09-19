@@ -9,11 +9,11 @@ function page() {
   return (
     <div>
         <Navbar />
-        <Leaderimage/>
-        <Wes />
-        <Sason />
-        <ContactUs />
-        <Footer/>
+         <Leaderimage/>
+        <Wes />  
+         <Sason />
+       <ContactUs />
+        <Footer/>  
 
 
       
