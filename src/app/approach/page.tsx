@@ -11,11 +11,11 @@ function page() {
     <div>
      <Navbar/>
      <Approachimage/>
-     <Grid/>
-     <Ourapproach/>
-     <Piller/>
-    <ContactUs/>
-<Footer/>  
+       <Grid/> 
+      <Ourapproach/> 
+      <Piller/>
+     <ContactUs/>
+<Footer/>     
 
      
     </div>

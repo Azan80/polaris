@@ -4,7 +4,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 .headingcon {
@@ -35,7 +34,7 @@
 
 .textcontainer {
     margin-right: 460px;
-   margin-bottom: -20px;
+    margin-bottom: -20px;
 }
 
 .description {
@@ -53,15 +52,10 @@
 }
 
 .image {
- 
- width: 438px;
- height: 394px;
-object-fit: cover;
- 
-
+    width: 438px;
+    height: 394px;
+    object-fit: cover;
 }
-
-
 @media (min-width: 1440px) {
     .headingcon {
         margin-right: 930px; 
@@ -83,5 +77,42 @@ object-fit: cover;
     .image {
         width: 500px; 
         height: 450px; 
+    }
+}
+@media (max-width: 900px) {
+    .headingcon {
+        margin-right: 0;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+    .textcontainer {
+        margin-right: 0;
+        text-align: center;
+        padding-left:5% ;
+        padding-right: 5%;
+    }
+    .headingcon::after{
+        width: 40%;
+left: 30%;
+    }
+
+    .description {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .imagecontainer {
+        margin-left: 0;
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        padding-left:5% ;
+        padding-right: 5%;
+    }
+
+    .image {
+        width: 100%;
+        height: auto;
     }
 }
